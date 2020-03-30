@@ -8,8 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using iTextSharp.text;
-using iTextSharp.text.pdf;
 using System.IO;
 using System.Data.SqlClient;
 using System.Configuration;
@@ -74,7 +72,6 @@ namespace HopeCity
 
         private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-  
         }
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -111,7 +108,6 @@ namespace HopeCity
 
         private void Main_Load(object sender, EventArgs e)
         {
-
         }
 
         private void new_choose_Click(object sender, EventArgs e)
@@ -129,7 +125,6 @@ namespace HopeCity
             //Paragraph p = new Paragraph("Test PDF");
             //document.Add(p);
             //document.Close();
-
         }
     }
 }
