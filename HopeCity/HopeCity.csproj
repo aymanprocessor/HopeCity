@@ -107,6 +107,12 @@
       <DependentUpon>Ar_Eng.cs</DependentUpon>
     </Compile>
     <Compile Include="common.cs" />
+    <Compile Include="Forms\miniAddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\miniAddStudent.Designer.cs">
+      <DependentUpon>miniAddStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Students.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\miniAddStudent.resx">
+      <DependentUpon>miniAddStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\newtest.resx">
       <DependentUpon>newtest.cs</DependentUpon>

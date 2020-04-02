@@ -11,6 +11,7 @@ using System.Data.SqlClient;
 using System.Data.SqlServerCe;
 using MaterialSkin.Controls;
 using MaterialSkin;
+using HopeCity.Forms;
 
 namespace HopeCity
 {
@@ -52,8 +53,8 @@ namespace HopeCity
                         var reader = cmd.ExecuteScalar().ToString();
                         if (reader == "1")
                         {
-                            Main main = new Main();
-                            main.Show();
+                            Students students = new Students();
+                            students.Show();
                             this.Hide();
                         }
                         else

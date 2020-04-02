@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace HopeCity.Forms
 {
-    public partial class Students : Form
+    public partial class miniAddStudent : Form
     {
-        public Students()
+        public miniAddStudent()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            miniAddStudent miniAddStudent = new miniAddStudent();
-            miniAddStudent.Show();
         }
     }
 }
