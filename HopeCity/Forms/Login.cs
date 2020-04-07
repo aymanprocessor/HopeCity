@@ -12,6 +12,10 @@ using System.Data.SqlServerCe;
 using MaterialSkin.Controls;
 using MaterialSkin;
 using HopeCity.Forms;
+using System.IO;
+
+using HopeCity.Models;
+using SQLite;
 
 namespace HopeCity
 {
@@ -123,6 +127,15 @@ namespace HopeCity
             Register register = new Register();
             register.Show();
             Hide();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var databasePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "test.db");
+
+            var db = new SQLiteConnection(databasePath);
+            db.CreateTable<users>();
+          
         }
     }
 }
