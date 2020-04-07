@@ -38,12 +38,6 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtUsername = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.txtPassword = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -127,29 +121,17 @@
             //
             // pictureBox1
             //
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.DarkBlue;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.Navy;
-            this.bunifuThinButton22.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            resources.ApplyResources(this.bunifuThinButton22, "bunifuThinButton22");
-            this.bunifuThinButton22.ButtonText = "Sign in";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton22.IdleBorderThickness = 1;
-            this.bunifuThinButton22.IdleCornerRadius = 50;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.Navy;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.DarkBlue;
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::HopeCity.Properties.Resources.logo_HCF;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             //
             // Login
             //
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
@@ -178,12 +160,5 @@
         private MaterialSkin.Controls.MaterialSingleLineTextField txtPassword;
         private MaterialSkin.Controls.MaterialRaisedButton btnLogin;
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox txtUsername;
-        private System.Windows.Forms.Panel panel1;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox txtPassword;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
     }
 }
