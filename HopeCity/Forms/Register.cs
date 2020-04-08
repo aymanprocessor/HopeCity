@@ -78,5 +78,10 @@ namespace HopeCity
                 MessageBox.Show(ex.Message, "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        internal void show()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

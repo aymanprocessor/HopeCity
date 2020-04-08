@@ -61,6 +61,15 @@ namespace HopeCity.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SignIn.
+        /// </summary>
+        public static string login_btn_signin {
+            get {
+                return ResourceManager.GetString("login_btn_signin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string login_msg_invlidUaernamePassword {

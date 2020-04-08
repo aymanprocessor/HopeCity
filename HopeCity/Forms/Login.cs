@@ -9,17 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.SqlServerCe;
-using MaterialSkin.Controls;
-using MaterialSkin;
-using HopeCity.Forms;
-using System.IO;
 
-using HopeCity.Models;
-using SQLite;
 
 namespace HopeCity
 {
-    public partial class Login : MaterialForm
+    public partial class Login : Form
     {
         private language language;
         private common com;
@@ -27,14 +21,16 @@ namespace HopeCity
         public Login()
         {
             InitializeComponent();
-            Theme th = new Theme(this);
-            th.apply();
+          
+          
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
             com = new common();
             language = new language();
+
+            btnSignin.ButtonText = Properties.strings.login_btn_signin;
         }
 
         private void Login_FormClosing(object sender, FormClosingEventArgs e)
@@ -42,7 +38,7 @@ namespace HopeCity
             Application.ExitThread();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnSignin_Click(object sender, EventArgs e)
         {
             try
             {
@@ -57,8 +53,8 @@ namespace HopeCity
                         var reader = cmd.ExecuteScalar().ToString();
                         if (reader == "1")
                         {
-                            Students students = new Students();
-                            students.Show();
+                            Main main = new Main();
+                            main.Show();
                             this.Hide();
                         }
                         else
@@ -125,17 +121,23 @@ namespace HopeCity
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Register register = new Register();
-            register.Show();
+            register.show();
             Hide();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            var databasePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "test.db");
 
-            var db = new SQLiteConnection(databasePath);
-            db.CreateTable<users>();
-          
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txtPassword_OnValueChanged(object sender, EventArgs e)
+        {
+            txtPassword.isPassword = true;
         }
     }
 }
