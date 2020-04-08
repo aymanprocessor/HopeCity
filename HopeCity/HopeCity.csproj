@@ -51,36 +51,6 @@
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="FlatButton">
-      <HintPath>..\..\JControls\FlatButton.dll</HintPath>
-    </Reference>
-    <Reference Include="itextsharp">
-      <HintPath>..\..\..\itextsharp.dll</HintPath>
-    </Reference>
-    <Reference Include="JDragControl">
-      <HintPath>..\..\JControls\JDragControl.dll</HintPath>
-    </Reference>
-    <Reference Include="JGradient Panel">
-      <HintPath>..\..\JControls\JGradient Panel.dll</HintPath>
-    </Reference>
-    <Reference Include="JImageButton">
-      <HintPath>..\..\JControls\JImageButton.dll</HintPath>
-    </Reference>
-    <Reference Include="JMaterialTextbox">
-      <HintPath>..\..\JControls\JMaterialTextbox.dll</HintPath>
-    </Reference>
-    <Reference Include="JMetroTextBox">
-      <HintPath>..\..\JControls\JMetroTextBox.dll</HintPath>
-    </Reference>
-    <Reference Include="JTextBox">
-      <HintPath>..\..\JControls\JTextBox.dll</HintPath>
-    </Reference>
-    <Reference Include="JTextBox2">
-      <HintPath>..\..\JControls\JTextBox2.dll</HintPath>
-    </Reference>
-    <Reference Include="JThinButton">
-      <HintPath>..\..\JControls\JThinButton.dll</HintPath>
-    </Reference>
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
     </Reference>
@@ -269,7 +239,9 @@
     <Content Include="hcdb1_log.ldf">
       <DependentUpon>hcdb1.mdf</DependentUpon>
     </Content>
-    <Content Include="hopecity_db.sdf" />
+    <Content Include="hopecity_db.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\close icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

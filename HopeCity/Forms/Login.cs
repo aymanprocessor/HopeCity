@@ -29,6 +29,8 @@ namespace HopeCity
         {
             com = new common();
             language = new language();
+
+            btnSignin.ButtonText = Properties.strings.login_btn_signin;
         }
 
         private void Login_FormClosing(object sender, FormClosingEventArgs e)
@@ -36,7 +38,7 @@ namespace HopeCity
             Application.ExitThread();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnSignin_Click(object sender, EventArgs e)
         {
             try
             {
@@ -131,6 +133,11 @@ namespace HopeCity
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void txtPassword_OnValueChanged(object sender, EventArgs e)
+        {
+            txtPassword.isPassword = true;
         }
     }
 }

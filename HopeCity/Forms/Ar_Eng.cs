@@ -32,7 +32,7 @@ namespace HopeCity
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
             language language = new language();
-            language.updateConfig("language", "ar-EG");
+            language.updateConfig("language", "ar");
             FirstTime(false);
             Application.Restart();
             //Login login = new Login();
