@@ -9,11 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.SqlServerCe;
-
+using MaterialSkin.Controls;
+using MaterialSkin;
 
 namespace HopeCity
 {
-    public partial class Login : Form
+    public partial class Login : MaterialForm
     {
         private language language;
         private common com;
@@ -21,16 +22,14 @@ namespace HopeCity
         public Login()
         {
             InitializeComponent();
-          
-          
+            Theme th = new Theme(this);
+            th.apply();
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
             com = new common();
             language = new language();
-
-            btnSignin.ButtonText = Properties.strings.login_btn_signin;
         }
 
         private void Login_FormClosing(object sender, FormClosingEventArgs e)
@@ -38,7 +37,7 @@ namespace HopeCity
             Application.ExitThread();
         }
 
-        private void btnSignin_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             try
             {
@@ -121,23 +120,8 @@ namespace HopeCity
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Register register = new Register();
-            register.show();
+            register.Show();
             Hide();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void txtPassword_OnValueChanged(object sender, EventArgs e)
-        {
-            txtPassword.isPassword = true;
         }
     }
 }

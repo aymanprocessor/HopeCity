@@ -28,170 +28,162 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtUsername = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.txtPassword = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.btnLogin = new MaterialSkin.Controls.MaterialRaisedButton();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtUsername = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txtPassword = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnSignin = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
+            //
             // label2
-            // 
+            //
             resources.ApplyResources(this.label2, "label2");
-            this.label2.ForeColor = System.Drawing.Color.Navy;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label2.Name = "label2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Navy;
-            resources.ApplyResources(this.linkLabel1, "linkLabel1");
-            this.linkLabel1.LinkColor = System.Drawing.Color.Navy;
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
+            //
+            // label3
+            //
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label3.Name = "label3";
+
+            //
             // bunifuElipse1
-            // 
+            //
             this.bunifuElipse1.ElipseRadius = 5;
             this.bunifuElipse1.TargetControl = this;
-            // 
+            //
+            // panel1
+            //
+            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel1.Controls.Add(this.pictureBox1);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            //
+            // pictureBox1
+            //
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::HopeCity.Properties.Resources.logo_HCF;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            //
             // txtUsername
-            // 
-            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            //
             resources.ApplyResources(this.txtUsername, "txtUsername");
-            this.txtUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtUsername.HintForeColor = System.Drawing.Color.Empty;
-            this.txtUsername.HintText = "";
-            this.txtUsername.isPassword = false;
-            this.txtUsername.LineFocusedColor = System.Drawing.Color.Navy;
-            this.txtUsername.LineIdleColor = System.Drawing.Color.Navy;
-            this.txtUsername.LineMouseHoverColor = System.Drawing.Color.RoyalBlue;
-            this.txtUsername.LineThickness = 4;
+            this.txtUsername.Depth = 0;
+            this.txtUsername.Hint = "";
+            this.txtUsername.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
+            this.txtUsername.PasswordChar = '\0';
+            this.txtUsername.SelectedText = "";
+            this.txtUsername.SelectionLength = 0;
+            this.txtUsername.SelectionStart = 0;
+            this.txtUsername.UseSystemPasswordChar = false;
+            //
             // txtPassword
-            // 
-            this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            //
             resources.ApplyResources(this.txtPassword, "txtPassword");
             this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtPassword.HintForeColor = System.Drawing.Color.Empty;
             this.txtPassword.HintText = "";
-            this.txtPassword.isPassword = false;
+            this.txtPassword.isPassword = true;
             this.txtPassword.LineFocusedColor = System.Drawing.Color.Navy;
             this.txtPassword.LineIdleColor = System.Drawing.Color.Navy;
             this.txtPassword.LineMouseHoverColor = System.Drawing.Color.RoyalBlue;
             this.txtPassword.LineThickness = 5;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtPassword.OnValueChanged += new System.EventHandler(this.txtPassword_OnValueChanged);
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Name = "label1";
-            // 
-            // btnSignin
-            // 
-            this.btnSignin.ActiveBorderThickness = 1;
-            this.btnSignin.ActiveCornerRadius = 20;
-            this.btnSignin.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.btnSignin.ActiveForecolor = System.Drawing.Color.DarkBlue;
-            this.btnSignin.ActiveLineColor = System.Drawing.Color.Navy;
-            this.btnSignin.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            resources.ApplyResources(this.btnSignin, "btnSignin");
-            this.btnSignin.ButtonText = "Sign In";
-            this.btnSignin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSignin.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSignin.IdleBorderThickness = 1;
-            this.btnSignin.IdleCornerRadius = 50;
-            this.btnSignin.IdleFillColor = System.Drawing.Color.Navy;
-            this.btnSignin.IdleForecolor = System.Drawing.Color.WhiteSmoke;
-            this.btnSignin.IdleLineColor = System.Drawing.Color.DarkBlue;
-            this.btnSignin.Name = "btnSignin";
-            this.btnSignin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSignin.Click += new System.EventHandler(this.btnSignin_Click);
-            // 
-            // bunifuDragControl1
-            // 
-            this.bunifuDragControl1.Fixed = true;
-            this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.Vertical = true;
-            // 
+            //
+            // btnLogin
+            //
+            resources.ApplyResources(this.btnLogin, "btnLogin");
+            this.btnLogin.Depth = 0;
+            this.btnLogin.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Primary = true;
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            //
             // pictureBox2
-            // 
-            this.pictureBox2.Image = global::HopeCity.Properties.Resources.close_icon;
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
+            //
+            resources.ApplyResources(this.linkLabel1, "linkLabel1");
+            this.linkLabel1.LinkColor = System.Drawing.Color.Navy;
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            //
             // pictureBox1
-            // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Image = global::HopeCity.Properties.Resources.logo_HCF;
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel1.Controls.Add(this.pictureBox1);
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
-            // 
+            //
+            this.bunifuThinButton22.ActiveBorderThickness = 1;
+            this.bunifuThinButton22.ActiveCornerRadius = 20;
+            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.Transparent;
+            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.DarkBlue;
+            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.Navy;
+            this.bunifuThinButton22.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            resources.ApplyResources(this.bunifuThinButton22, "bunifuThinButton22");
+            this.bunifuThinButton22.ButtonText = "Sign in";
+            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton22.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton22.IdleBorderThickness = 1;
+            this.bunifuThinButton22.IdleCornerRadius = 50;
+            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.Navy;
+            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.DarkBlue;
+            this.bunifuThinButton22.Name = "bunifuThinButton22";
+            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //
             // Login
-            // 
+            //
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox2);
+            this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.btnSignin);
+            this.Controls.Add(this.bunifuThinButton22);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "Login";
+            this.Sizable = false;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Login_FormClosing);
             this.Load += new System.EventHandler(this.Login_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
-        #endregion
+        #endregion Windows Form Designer generated code
+
         private System.Windows.Forms.Label label2;
-       
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txtUsername;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txtPassword;
+        private MaterialSkin.Controls.MaterialRaisedButton btnLogin;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txtUsername;
+        private System.Windows.Forms.Panel panel1;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txtPassword;
         private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuThinButton2 btnSignin;
-        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
     }
 }
-
