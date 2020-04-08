@@ -9,14 +9,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace HopeCity
 {
     public partial class newtest : Form
     {
-
-       
-
         public newtest()
         {
             InitializeComponent();
@@ -35,8 +31,7 @@ namespace HopeCity
             //    dataGridView1.DataSource = ds.Tables[0];
             //}
 
-            label10.Text = DateTime.Now.ToString("dd/MM/yyyy");
-
+            // label10.Text = DateTime.Now.ToString("dd/MM/yyyy");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -53,37 +48,28 @@ namespace HopeCity
 
         private void label7_Click(object sender, EventArgs e)
         {
-
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
         }
 
         private void label10_Click(object sender, EventArgs e)
         {
-
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             using (SqlConnection myConnection = new SqlConnection(Properties.Settings.Default.hccs))
             {
-
-
-
                 if (validate())
                 {
-
                     var sql = "insert into dbo.son (date, name, gender, dob, age, nat, nos, orderrr, address, djob, dedu, daddress, dtelephone, dmobile, mname, mjob, medu, maddress, mmobile, withdad, withmom, withother, whocare, problem) OUTPUT INSERTED.ID " +
                         " values (@date, @name, @gender, @dob, @age, @nat, @nos, @orderrr, @address, @djob, @dedu, @daddress, @dtelephone, @dmobile, @mname, @mjob, @medu, @maddress, @mmobile, @withdad, @withmom, @withother, @whocare, @problem);";
 
-
-
                     using (SqlCommand command = new SqlCommand(sql, myConnection))
                     {
-                        command.Parameters.AddWithValue("@date", label10.Text);
+                        //command.Parameters.AddWithValue("@date", label10.Text);
                         command.Parameters.AddWithValue("@name", tbName.Text);
                         command.Parameters.AddWithValue("@gender", cbGender.Text);
                         command.Parameters.AddWithValue("@dob", dtpDOB.Value);
@@ -108,11 +94,8 @@ namespace HopeCity
                         command.Parameters.AddWithValue("@whocare", tbWhocare.Text);
                         command.Parameters.AddWithValue("@problem", rtbProblem.Text);
 
-
                         myConnection.Open();
                         int result = command.ExecuteNonQuery();
-
-
 
                         if (result < 0)
                             MessageBox.Show("Error inserting data into Database!");
@@ -125,24 +108,15 @@ namespace HopeCity
                         }
                     }
                 }
-
-
-
-
-
-
-
             }
         }
 
         private void label11_Click(object sender, EventArgs e)
         {
-
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -160,24 +134,21 @@ namespace HopeCity
             }
         }
 
-        void validate(TextBox tb, String msg)
+        private void validate(TextBox tb, String msg)
         {
             if (tb.Text == "")
             {
                 MessageBox.Show(msg);
-
             }
             return;
         }
 
         private void tbName_Validating(object sender, CancelEventArgs e)
         {
-
         }
 
-        bool validate()
+        private bool validate()
         {
-            
             if (tbName.Text == "")
             {
                 MessageBox.Show("Please Fill Name");
@@ -187,9 +158,8 @@ namespace HopeCity
             if (tbNational.Text == "")
             {
                 MessageBox.Show("Please Fill Nationality");
-                return false; 
+                return false;
             }
-
 
             if (rtbBroNum.Text == "")
             {
@@ -286,17 +256,14 @@ namespace HopeCity
                 MessageBox.Show("Please Fill Who Care Box");
                 return false;
             }
-            
 
             if (rtbProblem.Text == "")
             {
                 MessageBox.Show("Please Fill Problem");
                 return false;
             }
-            
+
             return true;
         }
-
-
     }
 }
