@@ -19,8 +19,8 @@ namespace HopeCity.Forms
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            miniAddStudent miniAddStudent = new miniAddStudent();
-            miniAddStudent.Show();
+            //miniAddStudent miniAddStudent = new miniAddStudent();
+            //miniAddStudent.Show();
         }
     }
 }
