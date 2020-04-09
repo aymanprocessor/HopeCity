@@ -121,7 +121,10 @@
     <value>تسجيل الدخول</value>
   </data>
   <data name="login_msg_invlidUaernamePassword" xml:space="preserve">
-    <value>اسم المتسخدم او كلمة المرةر غير صحيح</value>
+    <value>اسم المتسخدم او كلمة المرور غير صحيح</value>
+  </data>
+  <data name="register_btn_signup" xml:space="preserve">
+    <value>تسجيل</value>
   </data>
   <data name="register_msg_cantRegister" xml:space="preserve">
     <value>لايستطيع يتم التسجيل , حاول مرة اخرى</value>

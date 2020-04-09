@@ -117,7 +117,104 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>51</value>
-  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arabic Typesetting, 20.25pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 354</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 31</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>تأكيد كلمة المرور</value>
+  </data>
+  <data name="btnSignup.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAALMAAABBCAYAAACaTpXhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATHSURBVHhe7d07aFNRHAbwDpGmYhNqpGKh4CY4OHZ0EwdB
+        cOogOAiCYIdOHZy8N6221Jq0KlooIg5SH4gPxKpoRcXHIApKHUTBQR1ExKHz3/udkxu8zT9pmqbtuddv
+        +EEI9xX69XDuebbMz88LURIwzJQYDDMlBsNMicEwU2IwzJQYTQ/z9++/ZXLyjRw9+sTYseOCkcudlpaW
+        UfoP4W8f5qC//6HJxfj4a/ny5aeaoUY1Jcx4KDzczp2XpbV1TDZsGAt+xPGSfIkXOEb/JfztwxwMBY5L
+        W9vJQEG2bZuSkZEXMjf3Q83WUiwrzHgABBgPhYezD6v9GKJq/KAAHAkKwKIpuWdmPqlZq0dDYUZJfPDg
+        XfMADDA1T16y2YIpIN++/aZmr5Ylh9nznsrGjROSSp1QHoaoGfLS3l6UAwfuyK9ff9QcauoOMy66Z881
+        yWRQH2b9l1ZeOj0i27dPmUYFLZML1RVmXAwXbWsbVm9KtHJ86eo6Ky9fflWz+a9Fw4yL4GK4qH4zopXm
+        yebNp+Xq1Q9qRkM1w4wXve7uc+Zi+k2IVosnudxEzRK6aphRR0bVgiUyucMzhWu1zpaqYd61a1rWrUOn
+        h3ZRorXim0JWa+VQwzww8EiyWbRaaBcjWlsoZPfuvV6R24owowjPZMbVixC5Ap0rC3sLK8Lc23uL1QuK
+        AV+2bj0fyW4kzHhTzGTQRa2dTOSWTKYg09Pv9TCjT5xjLSg+0P58pvwyWA4zRsDZgUPaSURuQt355s2P
+        0TBjTCmG4mknELlrUPbtuxENM8aSsopB8eOZ1rdymNEchwH2+sFEbstmizI7+9mGGVOe7EwR/WAil6VS
+        wzIw8NiGGZMM7dws/WAit9l6swmz+RB8oR9I5Lq8fedDmPnyR/Hmy5YtZ22YzQcO9aTY8oJ3vlM2zOZD
+        8IV+IFEcjNow25VntAOI4oJhpsQohTmV4kB8irtSmO2ihqwzU5yVwsymOYo3zNwOCmSEeffuK8EX7DSh
+        uPLNaqImzIcO3Qu+YHc2xVXeTixBmH3/mRmsoR9I5LpB2b//tg0zlg/Fqov6gURuC+cCmjADWzQortLp
+        U2YeYDnMfX0PuOYyxVBeenouRadNYaQ+RuzrJxC5CfvnYEOoSJiBo+cobjD/L1xIMRJmVKJRmdZOInJN
+        Oj0shw/PlPMbCTNgySOWzuQ+Tzo6JiKrgVaEmXVnioP160dlaOh5JLsVYQauzUxu882i4wvXaFbDjA15
+        WN0gN3nS2XlG3SdQDTNg7blNm9iRQm7p6ChW3ainapgBiznnclx4nNyAPSixqaqWVagZZigUXpn/BpbQ
+        tJYQ5CNH7qsZDS0aZkCxjnoKA02rD01wxZolcqiuMAMq3HZzS85IodXim0J0sc0sQ3WHGdDKgSlW7e3c
+        P5tWkmfakdH8prVaVLOkMIcuXnxnlt/HDRlqaiZ0UWez46ZDRNvrr5aGwgy4EW6IG2PkEqsf1Li82bUB
+        g4Yw1gI1AC1zi2k4zCHcGEPwMAcLg6TtQCVMjkW4GXBaCB1xyMWgKQRbW8dM1RXbkFTbRrheyw7zv1Ba
+        Y+QdlsjFA9olDFAVIbIwixq5wIoAKAQbLYU1TQ0z0VpimCkxGGZKDIaZEoNhpoSYl7+5dC29TgQBGgAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnSignup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 482</value>
+  </data>
+  <data name="txtConfirmPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 390</value>
+  </data>
+  <data name="linkLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arabic Typesetting, 15.75pt</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 560</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 24</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>الرجوع إلي صفحة تسجيل الدخول</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arabic Typesetting, 20.25pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 155</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 31</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arabic Typesetting, 20.25pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 253</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 31</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 289</value>
+  </data>
+  <data name="txtUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 191</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arabic Typesetting, 27.75pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 37</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 42</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>حساب جديد</value>
+  </data>
 </root>

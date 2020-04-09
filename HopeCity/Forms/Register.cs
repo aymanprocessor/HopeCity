@@ -1,5 +1,4 @@
-﻿using MaterialSkin.Controls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,20 +12,23 @@ using System.Globalization;
 
 namespace HopeCity
 {
-    public partial class Register : MaterialForm
+    public partial class Register : Form
     {
         private common com;
+        
+
 
         public Register()
         {
             InitializeComponent();
-            Theme th = new Theme(this);
-            th.apply();
+
         }
 
         private void Register_Load(object sender, EventArgs e)
         {
             com = new common();
+
+            btnSignup.ButtonText = Properties.strings.register_btn_signup;
         }
 
         private void Register_FormClosing(object sender, FormClosingEventArgs e)
@@ -36,12 +38,7 @@ namespace HopeCity
             login.Show();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Hide();
-            Login login = new Login();
-            login.Show();
-        }
+      
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
@@ -79,9 +76,35 @@ namespace HopeCity
             }
         }
 
-        internal void show()
+        //internal void show()
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            Hide();
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void txtConfirmPassword_OnValueChanged_1(object sender, EventArgs e)
+        {
+            txtConfirmPassword.isPassword = true;
+        }
+
+        private void txtPassword_OnValueChanged(object sender, EventArgs e)
+        {
+            txtPassword.isPassword = true;
+
+        }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Hide();
+            Login login = new Login();
+            login.Show();
         }
     }
 }
