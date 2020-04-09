@@ -30,6 +30,7 @@
             this.txtConfirmPassword = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.btnSignup = new Bunifu.Framework.UI.BunifuThinButton2();
             this.txtUsername = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -152,10 +153,16 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
             // Register
             // 
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnSignup);
             this.Controls.Add(this.txtConfirmPassword);
@@ -187,6 +194,7 @@
         private Bunifu.Framework.UI.BunifuThinButton2 btnSignup;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txtConfirmPassword;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txtUsername;
+        private System.Windows.Forms.Label label5;
     }
 }
 #endregion
