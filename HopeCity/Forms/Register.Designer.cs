@@ -47,7 +47,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::HopeCity.Properties.Resources.close_icon;
             resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;

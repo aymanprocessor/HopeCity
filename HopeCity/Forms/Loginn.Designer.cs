@@ -79,8 +79,8 @@
             // 
             // txtPassword
             // 
-            resources.ApplyResources(this.txtPassword, "txtPassword");
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            resources.ApplyResources(this.txtPassword, "txtPassword");
             this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtPassword.HintForeColor = System.Drawing.Color.Empty;
             this.txtPassword.HintText = "";
@@ -95,8 +95,8 @@
             // 
             // txtUsername
             // 
-            resources.ApplyResources(this.txtUsername, "txtUsername");
             this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            resources.ApplyResources(this.txtUsername, "txtUsername");
             this.txtUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtUsername.HintForeColor = System.Drawing.Color.Empty;
             this.txtUsername.HintText = "";
@@ -110,9 +110,9 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.Controls.Add(this.pictureBox1);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // pictureBox1
@@ -124,8 +124,8 @@
             // 
             // linkLabel1
             // 
-            resources.ApplyResources(this.linkLabel1, "linkLabel1");
             this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Navy;
+            resources.ApplyResources(this.linkLabel1, "linkLabel1");
             this.linkLabel1.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.TabStop = true;
@@ -133,13 +133,13 @@
             // 
             // btnSignin
             // 
-            resources.ApplyResources(this.btnSignin, "btnSignin");
             this.btnSignin.ActiveBorderThickness = 1;
             this.btnSignin.ActiveCornerRadius = 50;
             this.btnSignin.ActiveFillColor = System.Drawing.Color.RoyalBlue;
             this.btnSignin.ActiveForecolor = System.Drawing.Color.White;
             this.btnSignin.ActiveLineColor = System.Drawing.Color.White;
             this.btnSignin.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            resources.ApplyResources(this.btnSignin, "btnSignin");
             this.btnSignin.ButtonText = "Sign In";
             this.btnSignin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSignin.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -155,7 +155,6 @@
             // pictureBox2
             // 
             resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Image = global::HopeCity.Properties.Resources.close_icon;
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
