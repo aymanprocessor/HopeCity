@@ -28,7 +28,7 @@ namespace HopeCity
             }
             else
             {
-                Application.Run(new Loginn());
+                Application.Run(new Login());
             }
         }
     }
