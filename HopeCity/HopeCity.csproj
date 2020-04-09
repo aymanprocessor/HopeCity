@@ -262,7 +262,7 @@
     <Content Include="hopecity_db.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Resources\close icon.png" />
+    <Content Include="Resources\close icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
