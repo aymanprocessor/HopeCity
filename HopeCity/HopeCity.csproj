@@ -82,6 +82,12 @@
       <DependentUpon>Ar_Eng.cs</DependentUpon>
     </Compile>
     <Compile Include="common.cs" />
+    <Compile Include="Forms\Loginn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loginn.Designer.cs">
+      <DependentUpon>Loginn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Students.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     <EmbeddedResource Include="Forms\Login.aa-DJ.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.aa.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Login.ar-DJ.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -161,11 +170,20 @@
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loginn.ar.resx">
+      <DependentUpon>Loginn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loginn.resx">
+      <DependentUpon>Loginn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\newtest.resx">
       <DependentUpon>newtest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Register.ar.resx">
+      <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Students.resx">
       <DependentUpon>Students.cs</DependentUpon>
@@ -217,7 +235,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo-HCF.png" />

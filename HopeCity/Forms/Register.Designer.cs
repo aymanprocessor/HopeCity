@@ -7,18 +7,6 @@
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
 
         #region Windows Form Designer generated code
 
@@ -28,129 +16,178 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
-            this.btnRegister = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.txtUsername = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.txtPassword = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.txtConfirmPassword = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtPassword = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.label4 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.txtConfirmPassword = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btnSignup = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.txtUsername = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnRegister
+            // bunifuElipse1
             // 
-            this.btnRegister.Depth = 0;
-            resources.ApplyResources(this.btnRegister, "btnRegister");
-            this.btnRegister.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Primary = true;
-            this.btnRegister.UseVisualStyleBackColor = true;
-            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            this.bunifuElipse1.ElipseRadius = 5;
+            this.bunifuElipse1.TargetControl = this;
             // 
-            // txtUsername
+            // bunifuDragControl1
             // 
-            this.txtUsername.Depth = 0;
-            this.txtUsername.Hint = "";
-            resources.ApplyResources(this.txtUsername, "txtUsername");
-            this.txtUsername.MouseState = MaterialSkin.MouseState.HOVER;
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.PasswordChar = '\0';
-            this.txtUsername.SelectedText = "";
-            this.txtUsername.SelectionLength = 0;
-            this.txtUsername.SelectionStart = 0;
-            this.txtUsername.UseSystemPasswordChar = false;
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::HopeCity.Properties.Resources.close_icon;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label3.Name = "label3";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.ForeColor = System.Drawing.Color.Navy;
+            this.label2.Name = "label2";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.Color.Navy;
+            this.label1.Name = "label1";
             // 
             // txtPassword
             // 
-            this.txtPassword.Depth = 0;
-            this.txtPassword.Hint = "";
+            this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.txtPassword, "txtPassword");
-            this.txtPassword.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtPassword.HintForeColor = System.Drawing.Color.Empty;
+            this.txtPassword.HintText = "";
+            this.txtPassword.isPassword = false;
+            this.txtPassword.LineFocusedColor = System.Drawing.Color.Navy;
+            this.txtPassword.LineIdleColor = System.Drawing.Color.Navy;
+            this.txtPassword.LineMouseHoverColor = System.Drawing.Color.RoyalBlue;
+            this.txtPassword.LineThickness = 2;
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '*';
-            this.txtPassword.SelectedText = "";
-            this.txtPassword.SelectionLength = 0;
-            this.txtPassword.SelectionStart = 0;
-            this.txtPassword.UseSystemPasswordChar = false;
+            this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtPassword.OnValueChanged += new System.EventHandler(this.txtPassword_OnValueChanged);
             // 
-            // txtConfirmPassword
+            // label4
             // 
-            this.txtConfirmPassword.Depth = 0;
-            this.txtConfirmPassword.Hint = "";
-            resources.ApplyResources(this.txtConfirmPassword, "txtConfirmPassword");
-            this.txtConfirmPassword.MouseState = MaterialSkin.MouseState.HOVER;
-            this.txtConfirmPassword.Name = "txtConfirmPassword";
-            this.txtConfirmPassword.PasswordChar = '*';
-            this.txtConfirmPassword.SelectedText = "";
-            this.txtConfirmPassword.SelectionLength = 0;
-            this.txtConfirmPassword.SelectionStart = 0;
-            this.txtConfirmPassword.UseSystemPasswordChar = false;
-            // 
-            // materialLabel1
-            // 
-            resources.ApplyResources(this.materialLabel1, "materialLabel1");
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            // 
-            // materialLabel2
-            // 
-            resources.ApplyResources(this.materialLabel2, "materialLabel2");
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            // 
-            // materialLabel3
-            // 
-            resources.ApplyResources(this.materialLabel3, "materialLabel3");
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.ForeColor = System.Drawing.Color.Navy;
+            this.label4.Name = "label4";
             // 
             // linkLabel1
             // 
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Navy;
             resources.ApplyResources(this.linkLabel1, "linkLabel1");
             this.linkLabel1.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
+            // 
+            // txtConfirmPassword
+            // 
+            this.txtConfirmPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            resources.ApplyResources(this.txtConfirmPassword, "txtConfirmPassword");
+            this.txtConfirmPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtConfirmPassword.HintForeColor = System.Drawing.Color.Empty;
+            this.txtConfirmPassword.HintText = "";
+            this.txtConfirmPassword.isPassword = false;
+            this.txtConfirmPassword.LineFocusedColor = System.Drawing.Color.Navy;
+            this.txtConfirmPassword.LineIdleColor = System.Drawing.Color.Navy;
+            this.txtConfirmPassword.LineMouseHoverColor = System.Drawing.Color.RoyalBlue;
+            this.txtConfirmPassword.LineThickness = 2;
+            this.txtConfirmPassword.Name = "txtConfirmPassword";
+            this.txtConfirmPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtConfirmPassword.OnValueChanged += new System.EventHandler(this.txtConfirmPassword_OnValueChanged_1);
+            // 
+            // btnSignup
+            // 
+            this.btnSignup.ActiveBorderThickness = 1;
+            this.btnSignup.ActiveCornerRadius = 50;
+            this.btnSignup.ActiveFillColor = System.Drawing.Color.RoyalBlue;
+            this.btnSignup.ActiveForecolor = System.Drawing.Color.White;
+            this.btnSignup.ActiveLineColor = System.Drawing.Color.White;
+            this.btnSignup.BackColor = System.Drawing.Color.WhiteSmoke;
+            resources.ApplyResources(this.btnSignup, "btnSignup");
+            this.btnSignup.ButtonText = "Register";
+            this.btnSignup.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSignup.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSignup.IdleBorderThickness = 1;
+            this.btnSignup.IdleCornerRadius = 50;
+            this.btnSignup.IdleFillColor = System.Drawing.Color.Navy;
+            this.btnSignup.IdleForecolor = System.Drawing.Color.WhiteSmoke;
+            this.btnSignup.IdleLineColor = System.Drawing.Color.DarkBlue;
+            this.btnSignup.Name = "btnSignup";
+            this.btnSignup.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            resources.ApplyResources(this.txtUsername, "txtUsername");
+            this.txtUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtUsername.HintForeColor = System.Drawing.Color.Empty;
+            this.txtUsername.HintText = "";
+            this.txtUsername.isPassword = false;
+            this.txtUsername.LineFocusedColor = System.Drawing.Color.Navy;
+            this.txtUsername.LineIdleColor = System.Drawing.Color.Navy;
+            this.txtUsername.LineMouseHoverColor = System.Drawing.Color.RoyalBlue;
+            this.txtUsername.LineThickness = 2;
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // Register
             // 
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.materialLabel3);
-            this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.materialLabel1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btnSignup);
             this.Controls.Add(this.txtConfirmPassword);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
-            this.Controls.Add(this.btnRegister);
-            this.MaximizeBox = false;
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.pictureBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Register";
-            this.Sizable = false;
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Register_FormClosing);
             this.Load += new System.EventHandler(this.Register_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
-        #endregion
-
-        private MaterialSkin.Controls.MaterialRaisedButton btnRegister;
-        private MaterialSkin.Controls.MaterialSingleLineTextField txtUsername;
-        private MaterialSkin.Controls.MaterialSingleLineTextField txtPassword;
-        private MaterialSkin.Controls.MaterialSingleLineTextField txtConfirmPassword;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtPassword;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnSignup;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtConfirmPassword;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtUsername;
     }
 }
+#endregion

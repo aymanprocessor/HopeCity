@@ -13,12 +13,12 @@ using System.Data.SqlServerCe;
 
 namespace HopeCity
 {
-    public partial class Login : Form
+    public partial class Loginn : Form
     {
         private language language;
         private common com;
 
-        public Login()
+        public Loginn()
         {
             InitializeComponent();
 
@@ -130,14 +130,21 @@ namespace HopeCity
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void txtPassword_OnValueChanged(object sender, EventArgs e)
+        private void txtPassword_OnValueChanged_1(object sender, EventArgs e)
         {
             txtPassword.isPassword = true;
+
+        }
+
+        private void btnSignin_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
