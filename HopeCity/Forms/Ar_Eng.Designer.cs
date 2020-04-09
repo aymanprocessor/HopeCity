@@ -68,6 +68,7 @@
             this.Controls.Add(this.materialRaisedButton1);
             this.MaximizeBox = false;
             this.Name = "Ar_Eng";
+            this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Select Language";
             this.Load += new System.EventHandler(this.Ar_Eng_Load);
