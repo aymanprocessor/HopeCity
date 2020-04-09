@@ -141,7 +141,6 @@
     <Compile Include="Forms\test.Designer.cs">
       <DependentUpon>test.cs</DependentUpon>
     </Compile>
-    <Compile Include="Theme.cs" />
     <EmbeddedResource Include="Forms\Ar_Eng.resx">
       <DependentUpon>Ar_Eng.cs</DependentUpon>
     </EmbeddedResource>
