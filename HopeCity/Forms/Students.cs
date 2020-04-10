@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ namespace HopeCity.Forms
 {
     public partial class Students : Form
     {
+        private son sonModel = new son();
+
         public Students()
         {
             InitializeComponent();
@@ -28,6 +31,7 @@ namespace HopeCity.Forms
 
         private void Students_Load(object sender, EventArgs e)
         {
+            populate();
         }
 
         private void populate()
@@ -36,6 +40,22 @@ namespace HopeCity.Forms
             using (HopecityEntities db = new HopecityEntities())
             {
                 dgStudent.DataSource = db.sons.ToList<son>();
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (dgStudent.CurrentRow.Index != -1)
+            {
+                sonModel.Id = dgStudent.CurrentRow.Cells["NatID"].Value.ToString();
+                using (HopecityEntities db = new HopecityEntities())
+                {
+                    if (db.Entry(sonModel).State == EntityState.Detached)
+                        db.sons.Attach(sonModel);
+                    db.Entry(sonModel).State = EntityState.Deleted;
+                    db.SaveChanges();
+                    populate();
+                }
             }
         }
     }

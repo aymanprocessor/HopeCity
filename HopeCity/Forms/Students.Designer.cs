@@ -65,6 +65,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // dgStudent
             // 
@@ -72,8 +73,8 @@
             this.dgStudent.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgStudent.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgStudent.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgStudent.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.dgStudent.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgStudent.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -96,18 +97,22 @@
             this.dgStudent.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.dgStudent.HeaderForeColor = System.Drawing.Color.Black;
             this.dgStudent.Location = new System.Drawing.Point(12, 50);
+            this.dgStudent.MultiSelect = false;
             this.dgStudent.Name = "dgStudent";
             this.dgStudent.ReadOnly = true;
             this.dgStudent.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgStudent.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgStudent.Size = new System.Drawing.Size(776, 388);
             this.dgStudent.TabIndex = 2;
             // 
             // NatID
             // 
+            this.NatID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.NatID.DataPropertyName = "id";
             this.NatID.HeaderText = "Nat ID";
             this.NatID.Name = "NatID";
             this.NatID.ReadOnly = true;
+            this.NatID.Width = 235;
             // 
             // namee
             // 
@@ -152,6 +157,7 @@
             this.Controls.Add(this.dgStudent);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Students";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
