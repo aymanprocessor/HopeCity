@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="HopecityDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="QA">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Question" Type="nvarchar" MaxLength="100" />
+          <Property Name="QAnswer" Type="nvarchar" MaxLength="100" />
+          <Property Name="SubQuestion" Type="nvarchar" MaxLength="100" />
+          <Property Name="SQAnswer" Type="nvarchar" MaxLength="100" />
+          <Property Name="sonId" Type="nvarchar" MaxLength="15" Nullable="false" />
+        </EntityType>
+        <EntityType Name="son">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="date" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="gender" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="dob" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="age" Type="nvarchar" MaxLength="50" />
+          <Property Name="nat" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="nos" Type="nvarchar" MaxLength="50" />
+          <Property Name="orderrr" Type="nvarchar" MaxLength="50" />
+          <Property Name="address" Type="nvarchar" MaxLength="50" />
+          <Property Name="djob" Type="nvarchar" MaxLength="50" />
+          <Property Name="dedu" Type="nvarchar" MaxLength="50" />
+          <Property Name="daddress" Type="nvarchar" MaxLength="50" />
+          <Property Name="dtelephone" Type="nvarchar" MaxLength="50" />
+          <Property Name="dmobile" Type="nvarchar" MaxLength="50" />
+          <Property Name="mname" Type="nvarchar" MaxLength="50" />
+          <Property Name="mjob" Type="nvarchar" MaxLength="50" />
+          <Property Name="medu" Type="nvarchar" MaxLength="50" />
+          <Property Name="maddress" Type="nvarchar" MaxLength="50" />
+          <Property Name="mmobile" Type="nvarchar" MaxLength="50" />
+          <Property Name="withdad" Type="bit" />
+          <Property Name="withmom" Type="bit" />
+          <Property Name="withother" Type="bit" />
+          <Property Name="whocare" Type="nvarchar" MaxLength="50" />
+          <Property Name="problem" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="username" Type="nvarchar" MaxLength="50" />
+          <Property Name="password" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_QA_son">
+          <End Role="son" Type="Self.son" Multiplicity="1" />
+          <End Role="QA" Type="Self.QA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="son">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="QA">
+              <PropertyRef Name="sonId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HopecityDBModelStoreContainer">
+          <EntitySet Name="QA" EntityType="Self.QA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="son" EntityType="Self.son" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_QA_son" Association="Self.FK_QA_son">
+            <End Role="son" EntitySet="son" />
+            <End Role="QA" EntitySet="QA" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HopecityDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="QA">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Question" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="QAnswer" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="SubQuestion" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="SQAnswer" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="sonId" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="son" Relationship="Self.FK_QA_son" FromRole="QA" ToRole="son" />
+        </EntityType>
+        <EntityType Name="son">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="dob" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="age" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="nos" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="orderrr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="djob" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dedu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="daddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dtelephone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dmobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="mname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="mjob" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="medu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="maddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="mmobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="withdad" Type="Boolean" />
+          <Property Name="withmom" Type="Boolean" />
+          <Property Name="withother" Type="Boolean" />
+          <Property Name="whocare" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="problem" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="QAs" Relationship="Self.FK_QA_son" FromRole="son" ToRole="QA" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_QA_son">
+          <End Role="son" Type="Self.son" Multiplicity="1" />
+          <End Role="QA" Type="Self.QA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="son">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="QA">
+              <PropertyRef Name="sonId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HopecityEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="QAs" EntityType="Self.QA" />
+          <EntitySet Name="sons" EntityType="Self.son" />
+          <EntitySet Name="users" EntityType="Self.user" />
+          <AssociationSet Name="FK_QA_son" Association="Self.FK_QA_son">
+            <End Role="son" EntitySet="sons" />
+            <End Role="QA" EntitySet="QAs" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="HopecityDBModelStoreContainer" CdmEntityContainer="HopecityEntities">
+          <EntitySetMapping Name="QAs">
+            <EntityTypeMapping TypeName="HopecityDBModel.QA">
+              <MappingFragment StoreEntitySet="QA">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Question" ColumnName="Question" />
+                <ScalarProperty Name="QAnswer" ColumnName="QAnswer" />
+                <ScalarProperty Name="SubQuestion" ColumnName="SubQuestion" />
+                <ScalarProperty Name="SQAnswer" ColumnName="SQAnswer" />
+                <ScalarProperty Name="sonId" ColumnName="sonId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sons">
+            <EntityTypeMapping TypeName="HopecityDBModel.son">
+              <MappingFragment StoreEntitySet="son">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="dob" ColumnName="dob" />
+                <ScalarProperty Name="age" ColumnName="age" />
+                <ScalarProperty Name="nat" ColumnName="nat" />
+                <ScalarProperty Name="nos" ColumnName="nos" />
+                <ScalarProperty Name="orderrr" ColumnName="orderrr" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="djob" ColumnName="djob" />
+                <ScalarProperty Name="dedu" ColumnName="dedu" />
+                <ScalarProperty Name="daddress" ColumnName="daddress" />
+                <ScalarProperty Name="dtelephone" ColumnName="dtelephone" />
+                <ScalarProperty Name="dmobile" ColumnName="dmobile" />
+                <ScalarProperty Name="mname" ColumnName="mname" />
+                <ScalarProperty Name="mjob" ColumnName="mjob" />
+                <ScalarProperty Name="medu" ColumnName="medu" />
+                <ScalarProperty Name="maddress" ColumnName="maddress" />
+                <ScalarProperty Name="mmobile" ColumnName="mmobile" />
+                <ScalarProperty Name="withdad" ColumnName="withdad" />
+                <ScalarProperty Name="withmom" ColumnName="withmom" />
+                <ScalarProperty Name="withother" ColumnName="withother" />
+                <ScalarProperty Name="whocare" ColumnName="whocare" />
+                <ScalarProperty Name="problem" ColumnName="problem" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="HopecityDBModel.user">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

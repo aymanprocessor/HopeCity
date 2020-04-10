@@ -33,10 +33,16 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.dgStudent = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.NatID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namee = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BOD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.National = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgStudent)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -60,41 +66,90 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // bunifuCustomDataGrid1
+            // dgStudent
             // 
-            this.bunifuCustomDataGrid1.AllowUserToAddRows = false;
-            this.bunifuCustomDataGrid1.AllowUserToDeleteRows = false;
+            this.dgStudent.AllowUserToAddRows = false;
+            this.dgStudent.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgStudent.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgStudent.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dgStudent.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgStudent.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bunifuCustomDataGrid1.DoubleBuffered = true;
-            this.bunifuCustomDataGrid1.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid1.HeaderBgColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomDataGrid1.HeaderForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCustomDataGrid1.Location = new System.Drawing.Point(12, 50);
-            this.bunifuCustomDataGrid1.Name = "bunifuCustomDataGrid1";
-            this.bunifuCustomDataGrid1.ReadOnly = true;
-            this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(776, 388);
-            this.bunifuCustomDataGrid1.TabIndex = 2;
+            this.dgStudent.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgStudent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgStudent.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NatID,
+            this.namee,
+            this.BOD,
+            this.National,
+            this.Gender,
+            this.Date});
+            this.dgStudent.DoubleBuffered = true;
+            this.dgStudent.EnableHeadersVisualStyles = false;
+            this.dgStudent.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.dgStudent.HeaderForeColor = System.Drawing.Color.Black;
+            this.dgStudent.Location = new System.Drawing.Point(12, 50);
+            this.dgStudent.Name = "dgStudent";
+            this.dgStudent.ReadOnly = true;
+            this.dgStudent.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgStudent.Size = new System.Drawing.Size(776, 388);
+            this.dgStudent.TabIndex = 2;
+            // 
+            // NatID
+            // 
+            this.NatID.DataPropertyName = "id";
+            this.NatID.HeaderText = "Nat ID";
+            this.NatID.Name = "NatID";
+            this.NatID.ReadOnly = true;
+            // 
+            // namee
+            // 
+            this.namee.DataPropertyName = "name";
+            this.namee.HeaderText = "Name";
+            this.namee.Name = "namee";
+            this.namee.ReadOnly = true;
+            // 
+            // BOD
+            // 
+            this.BOD.DataPropertyName = "dob";
+            this.BOD.HeaderText = "BOD";
+            this.BOD.Name = "BOD";
+            this.BOD.ReadOnly = true;
+            // 
+            // National
+            // 
+            this.National.DataPropertyName = "nat";
+            this.National.HeaderText = "National";
+            this.National.Name = "National";
+            this.National.ReadOnly = true;
+            // 
+            // Gender
+            // 
+            this.Gender.DataPropertyName = "gender";
+            this.Gender.HeaderText = "Gender";
+            this.Gender.Name = "Gender";
+            this.Gender.ReadOnly = true;
+            // 
+            // Date
+            // 
+            this.Date.DataPropertyName = "date";
+            this.Date.HeaderText = "Date";
+            this.Date.Name = "Date";
+            this.Date.ReadOnly = true;
             // 
             // Students
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.bunifuCustomDataGrid1);
+            this.Controls.Add(this.dgStudent);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Students";
@@ -102,9 +157,10 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Students";
+            this.Load += new System.EventHandler(this.Students_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgStudent)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,6 +170,12 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid1;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid dgStudent;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NatID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn namee;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BOD;
+        private System.Windows.Forms.DataGridViewTextBoxColumn National;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Date;
     }
 }

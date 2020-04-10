@@ -19,8 +19,24 @@ namespace HopeCity.Forms
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            //miniAddStudent miniAddStudent = new miniAddStudent();
-            //miniAddStudent.Show();
+            MiniNewStudent miniNewStudent = new MiniNewStudent();
+            if (miniNewStudent.ShowDialog() == DialogResult.OK)
+            {
+                populate();
+            }
+        }
+
+        private void Students_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void populate()
+        {
+            dgStudent.AutoGenerateColumns = false;
+            using (HopecityEntities db = new HopecityEntities())
+            {
+                dgStudent.DataSource = db.sons.ToList<son>();
+            }
         }
     }
 }
