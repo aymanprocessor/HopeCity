@@ -28,12 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Students));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.dgStudent = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.dgStudent = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.NatID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.namee = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BOD = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,49 +47,68 @@
             this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgStudent)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(718, 12);
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(756, 12);
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // pictureBox3
+            // 
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 5;
+            this.bunifuElipse1.TargetControl = this;
+            // 
             // dgStudent
             // 
+            this.dgStudent.AllowCustomTheming = false;
             this.dgStudent.AllowUserToAddRows = false;
             this.dgStudent.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
             this.dgStudent.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            resources.ApplyResources(this.dgStudent, "dgStudent");
             this.dgStudent.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgStudent.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dgStudent.BackgroundColor = System.Drawing.Color.Snow;
+            this.dgStudent.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
             this.dgStudent.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgStudent.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgStudent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgStudent.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.NatID,
             this.namee,
@@ -92,80 +116,110 @@
             this.National,
             this.Gender,
             this.Date});
-            this.dgStudent.DoubleBuffered = true;
+            this.dgStudent.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.dgStudent.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.dgStudent.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.dgStudent.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.dgStudent.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.dgStudent.CurrentTheme.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dgStudent.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
+            this.dgStudent.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dgStudent.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            this.dgStudent.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgStudent.CurrentTheme.Name = null;
+            this.dgStudent.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.dgStudent.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.dgStudent.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.dgStudent.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.dgStudent.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgStudent.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgStudent.EnableHeadersVisualStyles = false;
-            this.dgStudent.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.dgStudent.HeaderForeColor = System.Drawing.Color.Black;
-            this.dgStudent.Location = new System.Drawing.Point(12, 50);
+            this.dgStudent.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
+            this.dgStudent.HeaderBackColor = System.Drawing.Color.DodgerBlue;
+            this.dgStudent.HeaderBgColor = System.Drawing.Color.Empty;
+            this.dgStudent.HeaderForeColor = System.Drawing.Color.White;
             this.dgStudent.MultiSelect = false;
             this.dgStudent.Name = "dgStudent";
             this.dgStudent.ReadOnly = true;
-            this.dgStudent.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgStudent.RowHeadersVisible = false;
+            this.dgStudent.RowTemplate.Height = 40;
             this.dgStudent.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgStudent.Size = new System.Drawing.Size(776, 388);
-            this.dgStudent.TabIndex = 2;
+            this.dgStudent.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.DodgerBlue;
+            this.dgStudent.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgStudent_CellContentClick_1);
             // 
             // NatID
             // 
             this.NatID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.NatID.DataPropertyName = "id";
-            this.NatID.HeaderText = "Nat ID";
+            this.NatID.FillWeight = 20F;
+            resources.ApplyResources(this.NatID, "NatID");
             this.NatID.Name = "NatID";
             this.NatID.ReadOnly = true;
-            this.NatID.Width = 235;
             // 
             // namee
             // 
             this.namee.DataPropertyName = "name";
-            this.namee.HeaderText = "Name";
+            this.namee.FillWeight = 50F;
+            resources.ApplyResources(this.namee, "namee");
             this.namee.Name = "namee";
             this.namee.ReadOnly = true;
             // 
             // BOD
             // 
             this.BOD.DataPropertyName = "dob";
-            this.BOD.HeaderText = "BOD";
+            this.BOD.FillWeight = 25F;
+            resources.ApplyResources(this.BOD, "BOD");
             this.BOD.Name = "BOD";
             this.BOD.ReadOnly = true;
             // 
             // National
             // 
             this.National.DataPropertyName = "nat";
-            this.National.HeaderText = "National";
+            this.National.FillWeight = 20F;
+            resources.ApplyResources(this.National, "National");
             this.National.Name = "National";
             this.National.ReadOnly = true;
             // 
             // Gender
             // 
             this.Gender.DataPropertyName = "gender";
-            this.Gender.HeaderText = "Gender";
+            this.Gender.FillWeight = 18.61702F;
+            resources.ApplyResources(this.Gender, "Gender");
             this.Gender.Name = "Gender";
             this.Gender.ReadOnly = true;
             // 
             // Date
             // 
             this.Date.DataPropertyName = "date";
-            this.Date.HeaderText = "Date";
+            this.Date.FillWeight = 18.61702F;
+            resources.ApplyResources(this.Date, "Date");
             this.Date.Name = "Date";
             this.Date.ReadOnly = true;
             // 
             // Students
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Controls.Add(this.dgStudent);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Students";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Students";
             this.Load += new System.EventHandler(this.Students_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgStudent)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -176,7 +230,10 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid dgStudent;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.UI.WinForms.BunifuDataGridView dgStudent;
         private System.Windows.Forms.DataGridViewTextBoxColumn NatID;
         private System.Windows.Forms.DataGridViewTextBoxColumn namee;
         private System.Windows.Forms.DataGridViewTextBoxColumn BOD;

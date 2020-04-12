@@ -54,6 +54,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
       <HintPath>..\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
@@ -227,6 +230,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Register.ar.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Students.aa.resx">
+      <DependentUpon>Students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Students.ar.resx">
+      <DependentUpon>Students.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Students.resx">
       <DependentUpon>Students.cs</DependentUpon>
