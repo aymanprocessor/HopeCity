@@ -79,6 +79,24 @@ namespace HopeCity.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add.
+        /// </summary>
+        public static string ministudent_btn_add {
+            get {
+                return ResourceManager.GetString("ministudent_btn_add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancel.
+        /// </summary>
+        public static string ministudent_btn_cancel {
+            get {
+                return ResourceManager.GetString("ministudent_btn_cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Register.
         /// </summary>
         public static string register_btn_signup {

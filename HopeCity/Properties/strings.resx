@@ -123,6 +123,12 @@
   <data name="login_msg_invlidUaernamePassword" xml:space="preserve">
     <value>Wrong Password</value>
   </data>
+  <data name="ministudent_btn_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ministudent_btn_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
   <data name="register_btn_signup" xml:space="preserve">
     <value>Register</value>
   </data>

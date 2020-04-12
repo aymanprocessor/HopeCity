@@ -63,9 +63,29 @@ namespace HopeCity.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_student {
+            get {
+                object obj = ResourceManager.GetObject("add student", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_HCF {
             get {
                 object obj = ResourceManager.GetObject("logo-HCF", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap member_png_1 {
+            get {
+                object obj = ResourceManager.GetObject("member-png-1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

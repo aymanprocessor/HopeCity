@@ -123,6 +123,12 @@
   <data name="login_msg_invlidUaernamePassword" xml:space="preserve">
     <value>اسم المتسخدم او كلمة المرور غير صحيح</value>
   </data>
+  <data name="ministudent_btn_add" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="ministudent_btn_cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
   <data name="register_btn_signup" xml:space="preserve">
     <value>تسجيل</value>
   </data>

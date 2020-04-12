@@ -73,8 +73,8 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.txtPassword, "txtPassword");
+            this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtPassword.HintForeColor = System.Drawing.Color.Empty;
             this.txtPassword.HintText = "";
@@ -95,8 +95,8 @@
             // 
             // linkLabel1
             // 
-            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Navy;
             resources.ApplyResources(this.linkLabel1, "linkLabel1");
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Navy;
             this.linkLabel1.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.TabStop = true;
@@ -104,8 +104,8 @@
             // 
             // txtConfirmPassword
             // 
-            this.txtConfirmPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.txtConfirmPassword, "txtConfirmPassword");
+            this.txtConfirmPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtConfirmPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtConfirmPassword.HintForeColor = System.Drawing.Color.Empty;
             this.txtConfirmPassword.HintText = "";
@@ -120,13 +120,13 @@
             // 
             // btnSignup
             // 
+            resources.ApplyResources(this.btnSignup, "btnSignup");
             this.btnSignup.ActiveBorderThickness = 1;
             this.btnSignup.ActiveCornerRadius = 50;
             this.btnSignup.ActiveFillColor = System.Drawing.Color.RoyalBlue;
             this.btnSignup.ActiveForecolor = System.Drawing.Color.White;
             this.btnSignup.ActiveLineColor = System.Drawing.Color.White;
             this.btnSignup.BackColor = System.Drawing.Color.WhiteSmoke;
-            resources.ApplyResources(this.btnSignup, "btnSignup");
             this.btnSignup.ButtonText = "Register";
             this.btnSignup.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSignup.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -140,8 +140,8 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.txtUsername, "txtUsername");
+            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtUsername.HintForeColor = System.Drawing.Color.Empty;
             this.txtUsername.HintText = "";
@@ -160,8 +160,8 @@
             // 
             // Register
             // 
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
             resources.ApplyResources(this, "$this");
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnSignup);

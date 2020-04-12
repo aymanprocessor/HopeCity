@@ -21,11 +21,11 @@ namespace HopeCity.Forms
         private void btnAdd_Click(object sender, EventArgs e)
         {
             son sonModel = new son();
-            sonModel.name = txtName.Text.Trim();
-            sonModel.gender = cbGender.Text.Trim();
-            sonModel.nat = txtNational.Text.Trim();
-            sonModel.dob = txtBOD.Text.Trim();
             sonModel.Id = txtNationalId.Text.Trim();
+            sonModel.name = txtName.Text.Trim();
+            sonModel.gender = cbGender.selectedValue.Trim();
+            sonModel.nat = txtNational.Text.Trim();
+            sonModel.dob = txtDOB.Text.Trim();
             sonModel.date = DateTime.Now.ToShortDateString();
             using (HopecityEntities db = new HopecityEntities())
             {
@@ -61,6 +61,34 @@ namespace HopeCity.Forms
 
         private void MiniNewStudent_Load(object sender, EventArgs e)
         {
+            btnAdd.ButtonText = Properties.strings.ministudent_btn_add;
+            btnCancel.ButtonText = Properties.strings.ministudent_btn_cancel;
+
+        }
+
+        private void txtNationalId_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void cbGender_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void bunifuDropdown1_onItemSelected(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuDatepicker1_onValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
