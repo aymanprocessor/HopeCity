@@ -28,7 +28,7 @@ namespace HopeCity
             }
             else
             {
-                Application.Run(new Students());
+                Application.Run(new MainForm());
             }
         }
     }
