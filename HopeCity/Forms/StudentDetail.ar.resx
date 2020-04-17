@@ -149,12 +149,6 @@
   <data name="tbBroNum.Location" type="System.Drawing.Point, System.Drawing">
     <value>538, 221</value>
   </data>
-  <data name="tbBroNum.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>100, 100</value>
-  </data>
-  <data name="tbBroNum.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 100</value>
-  </data>
   <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
     <value>743, 137</value>
   </data>
@@ -297,7 +291,7 @@
     <value>538, 94</value>
   </data>
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-4, 39</value>
+    <value>48, 39</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>226, 74</value>
@@ -402,7 +396,7 @@
     <value>بيانات الأب</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-4, 400</value>
+    <value>49, 400</value>
   </data>
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
     <value>206, 71</value>
@@ -507,7 +501,7 @@
     <value>بيانات الأم</value>
   </data>
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-4, 631</value>
+    <value>49, 631</value>
   </data>
   <data name="cbOther.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -628,7 +622,7 @@
     <value>الأب</value>
   </data>
   <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-5, 862</value>
+    <value>48, 862</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>928, 1058</value>

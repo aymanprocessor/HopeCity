@@ -195,6 +195,7 @@
             // 
             // ddGender
             // 
+            resources.ApplyResources(this.ddGender, "ddGender");
             this.ddGender.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ddGender.BorderRadius = 1;
             this.ddGender.Color = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(151)))), ((int)(((byte)(234)))));
@@ -206,7 +207,6 @@
             this.ddGender.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Center;
             this.ddGender.FillDropDown = false;
             this.ddGender.FillIndicator = false;
-            resources.ApplyResources(this.ddGender, "ddGender");
             this.ddGender.ForeColor = System.Drawing.Color.Black;
             this.ddGender.FormattingEnabled = true;
             this.ddGender.Icon = null;
@@ -755,6 +755,7 @@
             // 
             // bunifuUserControl2
             // 
+            resources.ApplyResources(this.bunifuUserControl2, "bunifuUserControl2");
             this.bunifuUserControl2.AllowAnimations = false;
             this.bunifuUserControl2.AllowBorderColorChanges = false;
             this.bunifuUserControl2.AllowMouseEffects = false;
@@ -767,7 +768,6 @@
             this.bunifuUserControl2.ColorContrastOnClick = 30;
             this.bunifuUserControl2.ColorContrastOnHover = 30;
             this.bunifuUserControl2.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.bunifuUserControl2, "bunifuUserControl2");
             this.bunifuUserControl2.Image = null;
             this.bunifuUserControl2.ImageMargin = new System.Windows.Forms.Padding(0);
             this.bunifuUserControl2.Name = "bunifuUserControl2";
@@ -1171,6 +1171,7 @@
             // 
             // bunifuUserControl1
             // 
+            resources.ApplyResources(this.bunifuUserControl1, "bunifuUserControl1");
             this.bunifuUserControl1.AllowAnimations = false;
             this.bunifuUserControl1.AllowBorderColorChanges = false;
             this.bunifuUserControl1.AllowMouseEffects = false;
@@ -1183,7 +1184,6 @@
             this.bunifuUserControl1.ColorContrastOnClick = 30;
             this.bunifuUserControl1.ColorContrastOnHover = 30;
             this.bunifuUserControl1.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.bunifuUserControl1, "bunifuUserControl1");
             this.bunifuUserControl1.Image = null;
             this.bunifuUserControl1.ImageMargin = new System.Windows.Forms.Padding(0);
             this.bunifuUserControl1.Name = "bunifuUserControl1";
@@ -1586,6 +1586,7 @@
             // 
             // bunifuUserControl3
             // 
+            resources.ApplyResources(this.bunifuUserControl3, "bunifuUserControl3");
             this.bunifuUserControl3.AllowAnimations = false;
             this.bunifuUserControl3.AllowBorderColorChanges = false;
             this.bunifuUserControl3.AllowMouseEffects = false;
@@ -1598,7 +1599,6 @@
             this.bunifuUserControl3.ColorContrastOnClick = 30;
             this.bunifuUserControl3.ColorContrastOnHover = 30;
             this.bunifuUserControl3.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.bunifuUserControl3, "bunifuUserControl3");
             this.bunifuUserControl3.Image = null;
             this.bunifuUserControl3.ImageMargin = new System.Windows.Forms.Padding(0);
             this.bunifuUserControl3.Name = "bunifuUserControl3";
@@ -1625,6 +1625,7 @@
             // 
             // cbOther
             // 
+            resources.ApplyResources(this.cbOther, "cbOther");
             this.cbOther.AllowBindingControlAnimation = true;
             this.cbOther.AllowBindingControlColorChanges = false;
             this.cbOther.AllowBindingControlLocation = true;
@@ -1633,7 +1634,6 @@
             this.cbOther.AllowOnHoverStates = true;
             this.cbOther.AutoCheck = true;
             this.cbOther.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.cbOther, "cbOther");
             this.cbOther.BindingControl = null;
             this.cbOther.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
             this.cbOther.Checked = false;
@@ -1678,6 +1678,7 @@
             // 
             // cbMum
             // 
+            resources.ApplyResources(this.cbMum, "cbMum");
             this.cbMum.AllowBindingControlAnimation = true;
             this.cbMum.AllowBindingControlColorChanges = false;
             this.cbMum.AllowBindingControlLocation = true;
@@ -1686,7 +1687,6 @@
             this.cbMum.AllowOnHoverStates = true;
             this.cbMum.AutoCheck = true;
             this.cbMum.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.cbMum, "cbMum");
             this.cbMum.BindingControl = null;
             this.cbMum.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
             this.cbMum.Checked = false;
@@ -1731,6 +1731,7 @@
             // 
             // cbDad
             // 
+            resources.ApplyResources(this.cbDad, "cbDad");
             this.cbDad.AllowBindingControlAnimation = true;
             this.cbDad.AllowBindingControlColorChanges = false;
             this.cbDad.AllowBindingControlLocation = true;
@@ -1739,7 +1740,6 @@
             this.cbDad.AllowOnHoverStates = true;
             this.cbDad.AutoCheck = true;
             this.cbDad.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.cbDad, "cbDad");
             this.cbDad.BindingControl = null;
             this.cbDad.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
             this.cbDad.Checked = false;
@@ -1944,6 +1944,7 @@
             // 
             // bunifuUserControl4
             // 
+            resources.ApplyResources(this.bunifuUserControl4, "bunifuUserControl4");
             this.bunifuUserControl4.AllowAnimations = false;
             this.bunifuUserControl4.AllowBorderColorChanges = false;
             this.bunifuUserControl4.AllowMouseEffects = false;
@@ -1956,7 +1957,6 @@
             this.bunifuUserControl4.ColorContrastOnClick = 30;
             this.bunifuUserControl4.ColorContrastOnHover = 30;
             this.bunifuUserControl4.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.bunifuUserControl4, "bunifuUserControl4");
             this.bunifuUserControl4.Image = null;
             this.bunifuUserControl4.ImageMargin = new System.Windows.Forms.Padding(0);
             this.bunifuUserControl4.Name = "bunifuUserControl4";
@@ -1966,8 +1966,8 @@
             // 
             // StudentDetail
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
