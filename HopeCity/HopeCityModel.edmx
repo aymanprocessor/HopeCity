@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="HopecityDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="HopecityDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="QA">
           <Key>
             <PropertyRef Name="Id" />
@@ -14,9 +14,9 @@
           <Property Name="QAnswer" Type="nvarchar" MaxLength="100" />
           <Property Name="SubQuestion" Type="nvarchar" MaxLength="100" />
           <Property Name="SQAnswer" Type="nvarchar" MaxLength="100" />
-          <Property Name="sonId" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="studentId" Type="nvarchar" MaxLength="15" Nullable="false" />
         </EntityType>
-        <EntityType Name="son">
+        <EntityType Name="students">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
@@ -54,29 +54,28 @@
           <Property Name="username" Type="nvarchar" MaxLength="50" />
           <Property Name="password" Type="nvarchar" MaxLength="50" />
         </EntityType>
-        <Association Name="FK_QA_son">
-          <End Role="son" Type="Self.son" Multiplicity="1" />
+        <Association Name="FK_QA_student">
+          <End Role="students" Type="Self.students" Multiplicity="1" />
           <End Role="QA" Type="Self.QA" Multiplicity="*" />
           <ReferentialConstraint>
-            <Principal Role="son">
+            <Principal Role="students">
               <PropertyRef Name="Id" />
             </Principal>
             <Dependent Role="QA">
-              <PropertyRef Name="sonId" />
+              <PropertyRef Name="studentId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
         <EntityContainer Name="HopecityDBModelStoreContainer">
           <EntitySet Name="QA" EntityType="Self.QA" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="son" EntityType="Self.son" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="students" EntityType="Self.students" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
-          <AssociationSet Name="FK_QA_son" Association="Self.FK_QA_son">
-            <End Role="son" EntitySet="son" />
+          <AssociationSet Name="FK_QA_student" Association="Self.FK_QA_student">
+            <End Role="students" EntitySet="students" />
             <End Role="QA" EntitySet="QA" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="HopecityDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -89,20 +88,37 @@
           <Property Name="QAnswer" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="SubQuestion" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="SQAnswer" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="sonId" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
-          <NavigationProperty Name="son" Relationship="Self.FK_QA_son" FromRole="QA" ToRole="son" />
+          <Property Name="studentId" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="student" Relationship="HopecityDBModel.FK_QA_student" FromRole="QA" ToRole="student" />
         </EntityType>
-        <EntityType Name="son">
+        <EntityType Name="user">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="dob" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="HopecityEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="QAs" EntityType="Self.QA" />
+          <EntitySet Name="users" EntityType="Self.user" />
+          <EntitySet Name="students" EntityType="HopecityDBModel.student" />
+          <AssociationSet Name="FK_QA_student" Association="HopecityDBModel.FK_QA_student">
+            <End Role="student" EntitySet="students" />
+            <End Role="QA" EntitySet="QAs" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="student">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="date" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="gender" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dob" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="age" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="nat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="nat" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="nos" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="orderrr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
@@ -121,37 +137,20 @@
           <Property Name="withother" Type="Boolean" />
           <Property Name="whocare" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="problem" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <NavigationProperty Name="QAs" Relationship="Self.FK_QA_son" FromRole="son" ToRole="QA" />
+          <NavigationProperty Name="QAs" Relationship="HopecityDBModel.FK_QA_student" FromRole="student" ToRole="QA" />
         </EntityType>
-        <EntityType Name="user">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-        </EntityType>
-        <Association Name="FK_QA_son">
-          <End Role="son" Type="Self.son" Multiplicity="1" />
-          <End Role="QA" Type="Self.QA" Multiplicity="*" />
+        <Association Name="FK_QA_student">
+          <End Type="HopecityDBModel.student" Role="student" Multiplicity="1" />
+          <End Type="HopecityDBModel.QA" Role="QA" Multiplicity="*" />
           <ReferentialConstraint>
-            <Principal Role="son">
+            <Principal Role="student">
               <PropertyRef Name="Id" />
             </Principal>
             <Dependent Role="QA">
-              <PropertyRef Name="sonId" />
+              <PropertyRef Name="studentId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="HopecityEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="QAs" EntityType="Self.QA" />
-          <EntitySet Name="sons" EntityType="Self.son" />
-          <EntitySet Name="users" EntityType="Self.user" />
-          <AssociationSet Name="FK_QA_son" Association="Self.FK_QA_son">
-            <End Role="son" EntitySet="sons" />
-            <End Role="QA" EntitySet="QAs" />
-          </AssociationSet>
-        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -161,43 +160,12 @@
           <EntitySetMapping Name="QAs">
             <EntityTypeMapping TypeName="HopecityDBModel.QA">
               <MappingFragment StoreEntitySet="QA">
+                <ScalarProperty Name="studentId" ColumnName="studentId" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Question" ColumnName="Question" />
                 <ScalarProperty Name="QAnswer" ColumnName="QAnswer" />
                 <ScalarProperty Name="SubQuestion" ColumnName="SubQuestion" />
                 <ScalarProperty Name="SQAnswer" ColumnName="SQAnswer" />
-                <ScalarProperty Name="sonId" ColumnName="sonId" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="sons">
-            <EntityTypeMapping TypeName="HopecityDBModel.son">
-              <MappingFragment StoreEntitySet="son">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="date" ColumnName="date" />
-                <ScalarProperty Name="name" ColumnName="name" />
-                <ScalarProperty Name="gender" ColumnName="gender" />
-                <ScalarProperty Name="dob" ColumnName="dob" />
-                <ScalarProperty Name="age" ColumnName="age" />
-                <ScalarProperty Name="nat" ColumnName="nat" />
-                <ScalarProperty Name="nos" ColumnName="nos" />
-                <ScalarProperty Name="orderrr" ColumnName="orderrr" />
-                <ScalarProperty Name="address" ColumnName="address" />
-                <ScalarProperty Name="djob" ColumnName="djob" />
-                <ScalarProperty Name="dedu" ColumnName="dedu" />
-                <ScalarProperty Name="daddress" ColumnName="daddress" />
-                <ScalarProperty Name="dtelephone" ColumnName="dtelephone" />
-                <ScalarProperty Name="dmobile" ColumnName="dmobile" />
-                <ScalarProperty Name="mname" ColumnName="mname" />
-                <ScalarProperty Name="mjob" ColumnName="mjob" />
-                <ScalarProperty Name="medu" ColumnName="medu" />
-                <ScalarProperty Name="maddress" ColumnName="maddress" />
-                <ScalarProperty Name="mmobile" ColumnName="mmobile" />
-                <ScalarProperty Name="withdad" ColumnName="withdad" />
-                <ScalarProperty Name="withmom" ColumnName="withmom" />
-                <ScalarProperty Name="withother" ColumnName="withother" />
-                <ScalarProperty Name="whocare" ColumnName="whocare" />
-                <ScalarProperty Name="problem" ColumnName="problem" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -207,6 +175,37 @@
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="username" ColumnName="username" />
                 <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="students">
+            <EntityTypeMapping TypeName="HopecityDBModel.student">
+              <MappingFragment StoreEntitySet="students">
+                <ScalarProperty Name="problem" ColumnName="problem" />
+                <ScalarProperty Name="whocare" ColumnName="whocare" />
+                <ScalarProperty Name="withother" ColumnName="withother" />
+                <ScalarProperty Name="withmom" ColumnName="withmom" />
+                <ScalarProperty Name="withdad" ColumnName="withdad" />
+                <ScalarProperty Name="mmobile" ColumnName="mmobile" />
+                <ScalarProperty Name="maddress" ColumnName="maddress" />
+                <ScalarProperty Name="medu" ColumnName="medu" />
+                <ScalarProperty Name="mjob" ColumnName="mjob" />
+                <ScalarProperty Name="mname" ColumnName="mname" />
+                <ScalarProperty Name="dmobile" ColumnName="dmobile" />
+                <ScalarProperty Name="dtelephone" ColumnName="dtelephone" />
+                <ScalarProperty Name="daddress" ColumnName="daddress" />
+                <ScalarProperty Name="dedu" ColumnName="dedu" />
+                <ScalarProperty Name="djob" ColumnName="djob" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="orderrr" ColumnName="orderrr" />
+                <ScalarProperty Name="nos" ColumnName="nos" />
+                <ScalarProperty Name="nat" ColumnName="nat" />
+                <ScalarProperty Name="age" ColumnName="age" />
+                <ScalarProperty Name="dob" ColumnName="dob" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

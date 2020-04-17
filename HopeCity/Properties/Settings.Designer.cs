@@ -45,5 +45,17 @@ namespace HopeCity.Properties {
                 this["firstTime"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string currentuser {
+            get {
+                return ((string)(this["currentuser"]));
+            }
+            set {
+                this["currentuser"] = value;
+            }
+        }
     }
 }

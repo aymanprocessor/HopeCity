@@ -19,8 +19,8 @@ namespace HopeCity
         public string QAnswer { get; set; }
         public string SubQuestion { get; set; }
         public string SQAnswer { get; set; }
-        public string sonId { get; set; }
+        public string studentId { get; set; }
     
-        public virtual son son { get; set; }
+        public virtual student student { get; set; }
     }
 }

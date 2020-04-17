@@ -19,6 +19,7 @@ namespace HopeCity.Forms
 
         private void StudentDetail_Load(object sender, EventArgs e)
         {
+           
         }
     }
 }

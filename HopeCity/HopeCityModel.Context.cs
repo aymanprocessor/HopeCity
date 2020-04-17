@@ -26,7 +26,7 @@ namespace HopeCity
         }
     
         public virtual DbSet<QA> QAs { get; set; }
-        public virtual DbSet<son> sons { get; set; }
         public virtual DbSet<user> users { get; set; }
+        public virtual DbSet<student> students { get; set; }
     }
 }

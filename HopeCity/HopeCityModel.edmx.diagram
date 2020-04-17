@@ -6,9 +6,9 @@
     <edmx:Diagrams>
       <Diagram DiagramId="a932eebcc3e44f8cb6cff24c5443e597" Name="Diagram1">
         <EntityTypeShape EntityType="HopecityDBModel.QA" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
-        <EntityTypeShape EntityType="HopecityDBModel.son" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="HopecityDBModel.user" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
-        <AssociationConnector Association="HopecityDBModel.FK_QA_son" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="HopecityDBModel.student" Width="1.5" PointX="6" PointY="2.5" />
+        <AssociationConnector Association="HopecityDBModel.FK_QA_student" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -13,7 +13,7 @@ namespace HopeCity.Forms
 {
     public partial class Students : Form
     {
-        private son sonModel = new son();
+        private student studentModel = new student();
 
         public Students()
         {
@@ -31,15 +31,18 @@ namespace HopeCity.Forms
 
         private void Students_Load(object sender, EventArgs e)
         {
+            bunifuCircleProgress1.Text = "";
+            bunifuCircleProgress1.SubScriptText = "";
             populate();
         }
 
-        private void populate()
+        private async void populate()
         {
             dgStudent.AutoGenerateColumns = false;
             using (HopecityEntities db = new HopecityEntities())
             {
-                dgStudent.DataSource = db.sons.ToList<son>();
+                dgStudent.DataSource = await db.students.ToListAsync();
+                bunifuCircleProgress1.Visible = false;
             }
         }
 
@@ -47,12 +50,12 @@ namespace HopeCity.Forms
         {
             if (dgStudent.CurrentRow.Index != -1)
             {
-                sonModel.Id = dgStudent.CurrentRow.Cells["NatID"].Value.ToString();
+                studentModel.Id = dgStudent.CurrentRow.Cells["NatID"].Value.ToString();
                 using (HopecityEntities db = new HopecityEntities())
                 {
-                    if (db.Entry(sonModel).State == EntityState.Detached)
-                        db.sons.Attach(sonModel);
-                    db.Entry(sonModel).State = EntityState.Deleted;
+                    if (db.Entry(studentModel).State == EntityState.Detached)
+                        db.students.Attach(studentModel);
+                    db.Entry(studentModel).State = EntityState.Deleted;
                     db.SaveChanges();
                     populate();
                 }
@@ -66,12 +69,10 @@ namespace HopeCity.Forms
 
         private void dgStudent_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
         }
 
         private void dgStudent_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
-
         }
     }
 }

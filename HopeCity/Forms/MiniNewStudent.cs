@@ -20,18 +20,18 @@ namespace HopeCity.Forms
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            son sonModel = new son();
-            sonModel.Id = txtNationalId.Text.Trim();
-            sonModel.name = txtName.Text.Trim();
-            sonModel.gender = cbGender.selectedValue.Trim();
-            sonModel.nat = txtNational.Text.Trim();
-            sonModel.dob = txtDOB.Text.Trim();
-            sonModel.date = DateTime.Now.ToShortDateString();
+            student studentModel = new student();
+            studentModel.Id = txtNationalId.Text.Trim();
+            studentModel.name = txtName.Text.Trim();
+            studentModel.gender = cbGender.selectedValue.Trim();
+            studentModel.nat = txtNational.Text.Trim();
+            studentModel.dob = txtDOB.Text.Trim();
+            studentModel.date = DateTime.Now.ToShortDateString();
             using (HopecityEntities db = new HopecityEntities())
             {
                 try
                 {
-                    db.sons.Add(sonModel);
+                    db.students.Add(studentModel);
                     db.SaveChanges();
                 }
                 catch (DbEntityValidationException ex)
@@ -63,32 +63,26 @@ namespace HopeCity.Forms
         {
             btnAdd.ButtonText = Properties.strings.ministudent_btn_add;
             btnCancel.ButtonText = Properties.strings.ministudent_btn_cancel;
-
         }
 
         private void txtNationalId_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
-
         }
 
         private void cbGender_SelectedIndexChanged(object sender, EventArgs e)
         {
-
         }
 
         private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
-
         }
 
         private void bunifuDropdown1_onItemSelected(object sender, EventArgs e)
         {
-
         }
 
         private void bunifuDatepicker1_onValueChanged(object sender, EventArgs e)
         {
-
         }
     }
 }
