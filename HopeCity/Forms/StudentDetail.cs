@@ -21,5 +21,25 @@ namespace HopeCity.Forms
         {
            
         }
+
+        private void bunifuUserControl4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuUserControl2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

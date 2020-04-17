@@ -265,5 +265,10 @@ namespace HopeCity
 
             return true;
         }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

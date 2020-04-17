@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ddGender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 94</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 200</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 16</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>عدد الأخوة واسمائهم</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbBroNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbBroNum.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAABkCAYAAACFMNyhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
+        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
+        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshgoUQ
+        wUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE
+        CBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAh
+        RLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQL
+        IYKFkL9g76/jmoeZ7bnZ6MoVaBjjB6PBcrD2WoXEAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbBroNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 221</value>
+  </data>
+  <data name="tbBroNum.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="tbBroNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 100</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 137</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 16</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>السن</value>
+  </data>
+  <data name="tbAge.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
+        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
+        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
+        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbAge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 158</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 137</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>محل الإقامة</value>
+  </data>
+  <data name="tbCity.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
+        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
+        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
+        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 158</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 70</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 70</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 137</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>الجنسية</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 200</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>موقع الطفل بين اخواته</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 73</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>الإسم الثلاثي</value>
+  </data>
+  <data name="tbNational.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
+        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
+        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
+        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbNational.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 158</value>
+  </data>
+  <data name="tbRank.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
+        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
+        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
+        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbRank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 221</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>بيانات الأبن</value>
+  </data>
+  <data name="tbDOB.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
+        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
+        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
+        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbDOB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 94</value>
+  </data>
+  <data name="tbName.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
+        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
+        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
+        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 94</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 39</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 74</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>محل الإقامة</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 74</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>المؤهل الدراسي</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 140</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 16</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>رقم الموبايل</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 140</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>رقم تليفون المنزل</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 74</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>وظيفة الأب</value>
+  </data>
+  <data name="tbDmob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVHhe7dOxCQJBAAXRbU4ws4jDyJI0sK8rwwKUhU3s
+        YAfeg5/8fAYQ87i9z+Py/JrZnpuNrlzHmAewr9noylWwsDvBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshPwF
+        e7++PvMwsz03G125Ag1j/AChVKLrQ4APKQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tbDtel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVHhe7dOxCQJBAAXRbU4ws4jDyJI0sK8rwwKUhU3s
+        YAfeg5/8fAYQ87i9z+Py/JrZnpuNrlzHmAewr9noylWwsDvBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshPwF
+        e7++PvMwsz03G125Ag1j/AChVKLrQ4APKQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tbDtel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 156</value>
+  </data>
+  <data name="tbDcity.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVHhe7dOxCQJBAAXRbU4ws4jDyJI0sK8rwwKUhU3s
+        YAfeg5/8fAYQ87i9z+Py/JrZnpuNrlzHmAewr9noylWwsDvBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshPwF
+        e7++PvMwsz03G125Ag1j/AChVKLrQ4APKQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tbDcity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 90</value>
+  </data>
+  <data name="tbDedu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVHhe7dOxCQJBAAXRbU4ws4jDyJI0sK8rwwKUhU3s
+        YAfeg5/8fAYQ87i9z+Py/JrZnpuNrlzHmAewr9noylWwsDvBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshPwF
+        e7++PvMwsz03G125Ag1j/AChVKLrQ4APKQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tbDjob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVHhe7dOxCQJBAAXRbU4ws4jDyJI0sK8rwwKUhU3s
+        YAfeg5/8fAYQ87i9z+Py/JrZnpuNrlzHmAewr9noylWwsDvBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshPwF
+        e7++PvMwsz03G125Ag1j/AChVKLrQ4APKQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tbDjob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 90</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>بيانات الأب</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 400</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 71</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>المؤهل الدراسي</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 74</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>وظيفة الأم</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 140</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 16</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>رقم الموبايل</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>714, 140</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>محل الإقامة</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>730, 71</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>اسم الأم</value>
+  </data>
+  <data name="tbMmob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcJQFATBF5DSMyKhSMogt8GWA0r4K81I
+        l1y+A8Rsr/t7f8xuZmvuaPTKdeY8gXX9Gr1yFSwsT7AQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
+        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAsh/8Fuz9vn
+        jNbMltzR6JUr0DDzBcyHHyjusFDwAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbMcity.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcJQFATBF5DSMyKhSMogt8GWA0r4K81I
+        l1y+A8Rsr/t7f8xuZmvuaPTKdeY8gXX9Gr1yFSwsT7AQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
+        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAsh/8Fuz9vn
+        jNbMltzR6JUr0DDzBcyHHyjusFDwAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbMcity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 156</value>
+  </data>
+  <data name="tbMedu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcJQFATBF5DSMyKhSMogt8GWA0r4K81I
+        l1y+A8Rsr/t7f8xuZmvuaPTKdeY8gXX9Gr1yFSwsT7AQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
+        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAsh/8Fuz9vn
+        jNbMltzR6JUr0DDzBcyHHyjusFDwAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbMedu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 90</value>
+  </data>
+  <data name="tbMjob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcJQFATBF5DSMyKhSMogt8GWA0r4K81I
+        l1y+A8Rsr/t7f8xuZmvuaPTKdeY8gXX9Gr1yFSwsT7AQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
+        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAsh/8Fuz9vn
+        jNbMltzR6JUr0DDzBcyHHyjusFDwAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbMname.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcJQFATBF5DSMyKhSMogt8GWA0r4K81I
+        l1y+A8Rsr/t7f8xuZmvuaPTKdeY8gXX9Gr1yFSwsT7AQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
+        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAsh/8Fuz9vn
+        jNbMltzR6JUr0DDzBcyHHyjusFDwAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbMname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 90</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>بيانات الأم</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 631</value>
+  </data>
+  <data name="cbOther.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB+SURBVDhPY6Ap2M/AwAHEGUDcQCYuAGIJqHFgAwUOMDC8
+        B+L/FOLvQLMMYIZmQAXvA9nYXEEQA/UeB5kBZFfADAUJggQawAJkAAwzRg0dNXTU0FFDwQJkAJyGAvF+
+        EJscDNKLbqgB1FCKMdCsALChIADkeIBsoRBHMDAwMAAAyfwZkHK5/nkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cbOther.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 76</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 79</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>آخري</value>
+  </data>
+  <data name="cbMum.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB+SURBVDhPY6Ap2M/AwAHEGUDcQCYuAGIJqHFgAwUOMDC8
+        B+L/FOLvQLMMYIZmQAXvA9nYXEEQA/UeB5kBZFfADAUJggQawAJkAAwzRg0dNXTU0FFDwQJkAJyGAvF+
+        EJscDNKLbqgB1FCKMdCsALChIADkeIBsoRBHMDAwMAAAyfwZkHK5/nkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cbMum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 76</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 79</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 16</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>الأم</value>
+  </data>
+  <data name="cbDad.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB+SURBVDhPY6Ap2M/AwAHEGUDcQCYuAGIJqHFgAwUOMDC8
+        B+L/FOLvQLMMYIZmQAXvA9nYXEEQA/UeB5kBZFfADAUJggQawAJkAAwzRg0dNXTU0FFDwQJkAJyGAvF+
+        EJscDNKLbqgB1FCKMdCsALChIADkeIBsoRBHMDAwMAAAyfwZkHK5/nkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cbDad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 76</value>
+  </data>
+  <data name="tbProblem.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAf4AAAAjCAYAAAB1uGhgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADOSURBVHhe7dWxDQJBEATBNd79/NMBEQZhEADopHNI4bpK
+        GmcS6AEAYl73/X7MfM3MzOzMrdbv7M+sAwA412r9zr7wA8DphB8AQoQfAEKEHwBChB8AQoQfAEKEHwBC
+        hB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBC
+        hB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEL+wv+8rs86zMzM7Myt1u/sAwANMz//xYvURtTu
+        kQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tbProblem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 164</value>
+  </data>
+  <data name="tbWhocare.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAClSURBVHhe7dOxCUJBFETRF/z099+OYhmWYQHKwiZ2sBfO
+        gUkmvwPEvO77/Zj5mtmZW43uXGfWAZxrNbpzFSycTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
+        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8E+r+uz
+        DjM7c6vRnSvQMPMD5veTuFThYJQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbWhocare.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 119</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 176</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>شكوي الأهل</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 128</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 16</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>من القائم برعاية الطفل ؟</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 80</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>مع من يقيم الطفل ؟</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>بيانات آخري</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 79</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>الأب</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-5, 862</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>928, 1058</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt</value>
+  </data>
+</root>
