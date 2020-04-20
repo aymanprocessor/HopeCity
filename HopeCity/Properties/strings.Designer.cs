@@ -97,6 +97,42 @@ namespace HopeCity.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Confirm.
+        /// </summary>
+        public static string msg_title_confirm {
+            get {
+                return ResourceManager.GetString("msg_title_confirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        public static string msg_title_error {
+            get {
+                return ResourceManager.GetString("msg_title_error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        public static string msg_title_success {
+            get {
+                return ResourceManager.GetString("msg_title_success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Warning.
+        /// </summary>
+        public static string msg_title_warning {
+            get {
+                return ResourceManager.GetString("msg_title_warning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Register.
         /// </summary>
         public static string register_btn_signup {
@@ -124,7 +160,7 @@ namespace HopeCity.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Successfully Registered.
         /// </summary>
         public static string register_msg_registerSuccessfully {
             get {

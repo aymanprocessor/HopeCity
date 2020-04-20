@@ -88,6 +88,10 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
       <HintPath>..\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\library\csharp\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
       <HintPath>..\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
     </Reference>
@@ -103,6 +107,9 @@
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
+    <Reference Include="EFCache, Version=1.2.1.0, Culture=neutral, PublicKeyToken=46c4868af4307d2c, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.Cache.1.2.1\lib\net46\EFCache.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -116,6 +123,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Program Files\Microsoft SQL Server Compact Edition\v4.0\Desktop\System.Data.SqlServerCe.dll</HintPath>
@@ -136,6 +144,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Alert.Designer.cs">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Ar_Eng.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,20 +187,10 @@
     <Compile Include="Forms\Students.Designer.cs">
       <DependentUpon>Students.cs</DependentUpon>
     </Compile>
-    <Compile Include="HopeCityModel.Context.cs">
+    <Compile Include="hc.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>HopeCityModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="HopeCityModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>HopeCityModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="HopeCityModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>HopeCityModel.edmx</DependentUpon>
+      <DependentUpon>hc.dbml</DependentUpon>
     </Compile>
     <Compile Include="language.cs" />
     <Compile Include="Forms\Login.cs">
@@ -209,9 +213,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QA.cs">
-      <DependentUpon>HopeCityModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="quest.cs" />
     <Compile Include="Forms\questions.cs">
       <SubType>Form</SubType>
@@ -242,12 +243,9 @@
     <Compile Include="Forms\test.Designer.cs">
       <DependentUpon>test.cs</DependentUpon>
     </Compile>
-    <Compile Include="son.cs">
-      <DependentUpon>HopeCityModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="user.cs">
-      <DependentUpon>HopeCityModel.tt</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="Forms\Alert.resx">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Ar_Eng.resx">
       <DependentUpon>Ar_Eng.cs</DependentUpon>
     </EmbeddedResource>
@@ -338,12 +336,13 @@
     <EmbeddedResource Include="Forms\test.resx">
       <DependentUpon>test.cs</DependentUpon>
     </EmbeddedResource>
-    <EntityDeploy Include="HopeCityModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>HopeCityModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="HopeCityModel.edmx.diagram">
-      <DependentUpon>HopeCityModel.edmx</DependentUpon>
+    <None Include="hc.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>hc.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hc.dbml.layout">
+      <DependentUpon>hc.dbml</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -390,24 +389,20 @@
     <Content Include="hcdb1_log.ldf">
       <DependentUpon>hcdb1.mdf</DependentUpon>
     </Content>
-    <Content Include="HopeCityModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>HopeCityModel.edmx</DependentUpon>
-      <LastGenOutput>HopeCityModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="HopeCityModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>HopeCityModel.edmx</DependentUpon>
-      <LastGenOutput>HopeCityModel.cs</LastGenOutput>
-    </Content>
     <Content Include="hopecity_db.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\success.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\icons8_cancel_24px.png" />
+    <None Include="Resources\error.png" />
     <None Include="Resources\add student.png" />
     <Content Include="Resources\close icon.png" />
     <None Include="Resources\member-png-1.png" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>

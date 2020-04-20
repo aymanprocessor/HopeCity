@@ -1,4 +1,5 @@
-﻿using HopeCity.Forms;
+﻿using EFCache;
+using HopeCity.Forms;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -17,6 +18,8 @@ namespace HopeCity
         [STAThread]
         private static void Main()
         {
+            EntityFrameworkCache.Initialize(new InMemoryCache());
+
             var language = ConfigurationManager.AppSettings["language"];
             Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(language);
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(language);
@@ -28,7 +31,7 @@ namespace HopeCity
             }
             else
             {
-                Application.Run(new MainForm());
+                Application.Run(new Loginn());
             }
         }
     }

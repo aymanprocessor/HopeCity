@@ -10,10 +10,67 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Question" Type="nvarchar" MaxLength="100" />
-          <Property Name="QAnswer" Type="nvarchar" MaxLength="100" />
-          <Property Name="SubQuestion" Type="nvarchar" MaxLength="100" />
-          <Property Name="SQAnswer" Type="nvarchar" MaxLength="100" />
+          <Property Name="A1" Type="bit" />
+          <Property Name="A1D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A2" Type="bit" />
+          <Property Name="A2D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A3" Type="nvarchar" MaxLength="255" />
+          <Property Name="A4" Type="bit" />
+          <Property Name="A5" Type="bit" />
+          <Property Name="A5D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A6" Type="bit" />
+          <Property Name="A7" Type="bit" />
+          <Property Name="A8" Type="bit" />
+          <Property Name="A8D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A9" Type="bit" />
+          <Property Name="A9D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A10" Type="bit" />
+          <Property Name="A11" Type="bit" />
+          <Property Name="A12" Type="bit" />
+          <Property Name="A13" Type="bit" />
+          <Property Name="A14" Type="nvarchar" MaxLength="255" />
+          <Property Name="A15" Type="bit" />
+          <Property Name="A15D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A16" Type="bit" />
+          <Property Name="A16D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A17" Type="bit" />
+          <Property Name="A17D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A18" Type="bit" />
+          <Property Name="A18D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A19" Type="bit" />
+          <Property Name="A20" Type="bit" />
+          <Property Name="A21" Type="bit" />
+          <Property Name="A21D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A22" Type="bit" />
+          <Property Name="A22D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A23" Type="bit" />
+          <Property Name="A23D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A24" Type="bit" />
+          <Property Name="A24D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A25" Type="nvarchar" MaxLength="255" />
+          <Property Name="A26" Type="bit" />
+          <Property Name="A26D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A27" Type="nvarchar" MaxLength="255" />
+          <Property Name="A28" Type="bit" />
+          <Property Name="A28D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A29" Type="nvarchar" MaxLength="255" />
+          <Property Name="A30" Type="nvarchar" MaxLength="255" />
+          <Property Name="A31" Type="nvarchar" MaxLength="255" />
+          <Property Name="A32" Type="bit" />
+          <Property Name="A33" Type="nvarchar" MaxLength="255" />
+          <Property Name="A34" Type="nvarchar" MaxLength="255" />
+          <Property Name="A35" Type="nvarchar" MaxLength="255" />
+          <Property Name="A36" Type="nvarchar" MaxLength="255" />
+          <Property Name="A37" Type="bit" />
+          <Property Name="A38" Type="bit" />
+          <Property Name="A39" Type="bit" />
+          <Property Name="A39D" Type="nvarchar" MaxLength="255" />
+          <Property Name="A41" Type="bit" />
+          <Property Name="A42" Type="nvarchar" MaxLength="255" />
+          <Property Name="A43" Type="nvarchar" MaxLength="255" />
+          <Property Name="A44" Type="nvarchar" MaxLength="255" />
+          <Property Name="A45" Type="nvarchar" MaxLength="255" />
+          <Property Name="A46" Type="nvarchar" MaxLength="255" />
           <Property Name="studentId" Type="nvarchar" MaxLength="15" Nullable="false" />
         </EntityType>
         <EntityType Name="students">
@@ -53,6 +110,7 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="username" Type="nvarchar" MaxLength="50" />
           <Property Name="password" Type="nvarchar" MaxLength="50" />
+          <Property Name="profile_image" Type="image" />
         </EntityType>
         <Association Name="FK_QA_student">
           <End Role="students" Type="Self.students" Multiplicity="1" />
@@ -84,12 +142,69 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Question" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="QAnswer" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="SubQuestion" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="SQAnswer" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="studentId" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="student" Relationship="HopecityDBModel.FK_QA_student" FromRole="QA" ToRole="student" />
+          <Property Name="A1" Type="Boolean" />
+          <Property Name="A1D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A2" Type="Boolean" />
+          <Property Name="A2D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A3" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A4" Type="Boolean" />
+          <Property Name="A5" Type="Boolean" />
+          <Property Name="A5D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A6" Type="Boolean" />
+          <Property Name="A7" Type="Boolean" />
+          <Property Name="A8" Type="Boolean" />
+          <Property Name="A8D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A9" Type="Boolean" />
+          <Property Name="A9D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A10" Type="Boolean" />
+          <Property Name="A11" Type="Boolean" />
+          <Property Name="A12" Type="Boolean" />
+          <Property Name="A13" Type="Boolean" />
+          <Property Name="A14" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A15" Type="Boolean" />
+          <Property Name="A15D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A16" Type="Boolean" />
+          <Property Name="A16D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A17" Type="Boolean" />
+          <Property Name="A17D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A18" Type="Boolean" />
+          <Property Name="A18D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A19" Type="Boolean" />
+          <Property Name="A20" Type="Boolean" />
+          <Property Name="A21" Type="Boolean" />
+          <Property Name="A21D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A22" Type="Boolean" />
+          <Property Name="A22D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A23" Type="Boolean" />
+          <Property Name="A23D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A24" Type="Boolean" />
+          <Property Name="A24D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A25" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A26" Type="Boolean" />
+          <Property Name="A26D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A27" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A28" Type="Boolean" />
+          <Property Name="A28D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A29" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A30" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A31" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A32" Type="Boolean" />
+          <Property Name="A33" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A34" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A35" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A36" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A37" Type="Boolean" />
+          <Property Name="A38" Type="Boolean" />
+          <Property Name="A39" Type="Boolean" />
+          <Property Name="A41" Type="Boolean" />
+          <Property Name="A42" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A43" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A44" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A45" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A46" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="A39D" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="user">
           <Key>
@@ -98,6 +213,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="profile_image" Type="Binary" MaxLength="Max" FixedLength="false" />
         </EntityType>
         <EntityContainer Name="HopecityEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="QAs" EntityType="Self.QA" />
@@ -160,18 +276,76 @@
           <EntitySetMapping Name="QAs">
             <EntityTypeMapping TypeName="HopecityDBModel.QA">
               <MappingFragment StoreEntitySet="QA">
+                <ScalarProperty Name="A39D" ColumnName="A39D" />
+                <ScalarProperty Name="A46" ColumnName="A46" />
+                <ScalarProperty Name="A45" ColumnName="A45" />
+                <ScalarProperty Name="A44" ColumnName="A44" />
+                <ScalarProperty Name="A43" ColumnName="A43" />
+                <ScalarProperty Name="A42" ColumnName="A42" />
+                <ScalarProperty Name="A41" ColumnName="A41" />
+                <ScalarProperty Name="A39" ColumnName="A39" />
+                <ScalarProperty Name="A38" ColumnName="A38" />
+                <ScalarProperty Name="A37" ColumnName="A37" />
+                <ScalarProperty Name="A36" ColumnName="A36" />
+                <ScalarProperty Name="A35" ColumnName="A35" />
+                <ScalarProperty Name="A34" ColumnName="A34" />
+                <ScalarProperty Name="A33" ColumnName="A33" />
+                <ScalarProperty Name="A32" ColumnName="A32" />
+                <ScalarProperty Name="A31" ColumnName="A31" />
+                <ScalarProperty Name="A30" ColumnName="A30" />
+                <ScalarProperty Name="A29" ColumnName="A29" />
+                <ScalarProperty Name="A28D" ColumnName="A28D" />
+                <ScalarProperty Name="A28" ColumnName="A28" />
+                <ScalarProperty Name="A27" ColumnName="A27" />
+                <ScalarProperty Name="A26D" ColumnName="A26D" />
+                <ScalarProperty Name="A26" ColumnName="A26" />
+                <ScalarProperty Name="A25" ColumnName="A25" />
+                <ScalarProperty Name="A24D" ColumnName="A24D" />
+                <ScalarProperty Name="A24" ColumnName="A24" />
+                <ScalarProperty Name="A23D" ColumnName="A23D" />
+                <ScalarProperty Name="A23" ColumnName="A23" />
+                <ScalarProperty Name="A22D" ColumnName="A22D" />
+                <ScalarProperty Name="A22" ColumnName="A22" />
+                <ScalarProperty Name="A21D" ColumnName="A21D" />
+                <ScalarProperty Name="A21" ColumnName="A21" />
+                <ScalarProperty Name="A20" ColumnName="A20" />
+                <ScalarProperty Name="A19" ColumnName="A19" />
+                <ScalarProperty Name="A18D" ColumnName="A18D" />
+                <ScalarProperty Name="A18" ColumnName="A18" />
+                <ScalarProperty Name="A17D" ColumnName="A17D" />
+                <ScalarProperty Name="A17" ColumnName="A17" />
+                <ScalarProperty Name="A16D" ColumnName="A16D" />
+                <ScalarProperty Name="A16" ColumnName="A16" />
+                <ScalarProperty Name="A15D" ColumnName="A15D" />
+                <ScalarProperty Name="A15" ColumnName="A15" />
+                <ScalarProperty Name="A14" ColumnName="A14" />
+                <ScalarProperty Name="A13" ColumnName="A13" />
+                <ScalarProperty Name="A12" ColumnName="A12" />
+                <ScalarProperty Name="A11" ColumnName="A11" />
+                <ScalarProperty Name="A10" ColumnName="A10" />
+                <ScalarProperty Name="A9D" ColumnName="A9D" />
+                <ScalarProperty Name="A9" ColumnName="A9" />
+                <ScalarProperty Name="A8D" ColumnName="A8D" />
+                <ScalarProperty Name="A8" ColumnName="A8" />
+                <ScalarProperty Name="A7" ColumnName="A7" />
+                <ScalarProperty Name="A6" ColumnName="A6" />
+                <ScalarProperty Name="A5D" ColumnName="A5D" />
+                <ScalarProperty Name="A5" ColumnName="A5" />
+                <ScalarProperty Name="A4" ColumnName="A4" />
+                <ScalarProperty Name="A3" ColumnName="A3" />
+                <ScalarProperty Name="A2D" ColumnName="A2D" />
+                <ScalarProperty Name="A2" ColumnName="A2" />
+                <ScalarProperty Name="A1D" ColumnName="A1D" />
+                <ScalarProperty Name="A1" ColumnName="A1" />
                 <ScalarProperty Name="studentId" ColumnName="studentId" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Question" ColumnName="Question" />
-                <ScalarProperty Name="QAnswer" ColumnName="QAnswer" />
-                <ScalarProperty Name="SubQuestion" ColumnName="SubQuestion" />
-                <ScalarProperty Name="SQAnswer" ColumnName="SQAnswer" />
-              </MappingFragment>
+                </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="users">
             <EntityTypeMapping TypeName="HopecityDBModel.user">
               <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="profile_image" ColumnName="profile_image" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="username" ColumnName="username" />
                 <ScalarProperty Name="password" ColumnName="password" />

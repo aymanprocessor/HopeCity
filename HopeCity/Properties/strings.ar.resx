@@ -129,6 +129,18 @@
   <data name="ministudent_btn_cancel" xml:space="preserve">
     <value>إلغاء</value>
   </data>
+  <data name="msg_title_confirm" xml:space="preserve">
+    <value>تأكيد</value>
+  </data>
+  <data name="msg_title_error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="msg_title_successful" xml:space="preserve">
+    <value>نجاح</value>
+  </data>
+  <data name="msg_title_warning" xml:space="preserve">
+    <value>تحذير</value>
+  </data>
   <data name="register_btn_signup" xml:space="preserve">
     <value>تسجيل</value>
   </data>

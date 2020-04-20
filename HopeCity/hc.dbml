@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HopecityDB" Class="hcDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\HopecityDB.mdf;Integrated Security=True" SettingsObjectName="HopeCity.Properties.Settings" SettingsPropertyName="HopecityDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.QA" Member="QAs">
+    <Type Name="QA">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="A1" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A1D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A2" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A2D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A3" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A4" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A5" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A5D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A6" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A7" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A8" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A8D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A9" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A9D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A10" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A11" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A12" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A13" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A14" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A15" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A15D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A16" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A16D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A17" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A17D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A18" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A18D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A19" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A20" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A21" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A21D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A22" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A22D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A23" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A23D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A24" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A24D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A25" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A26" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A26D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A27" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A28" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A28D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A29" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A30" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A31" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A32" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A33" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A34" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A35" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A36" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A37" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A38" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A39" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A39D" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A41" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="A42" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A43" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A44" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A45" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="A46" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="studentId" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Association Name="student_QA" Member="student" ThisKey="studentId" OtherKey="Id" Type="student" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.students" Member="students">
+    <Type Name="student">
+      <Column Name="Id" Type="System.String" DbType="NVarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="gender" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="dob" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nat" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="nos" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="orderrr" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="djob" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dedu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="daddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="dtelephone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dmobile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mjob" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="medu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="maddress" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="mmobile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="withdad" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="withmom" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="withother" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="whocare" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="problem" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="student_QA" Member="QAs" ThisKey="Id" OtherKey="studentId" Type="QA" />
+    </Type>
+  </Table>
+  <Table Name="dbo.users" Member="users">
+    <Type Name="user">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="profile_image" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>

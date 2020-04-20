@@ -129,6 +129,18 @@
   <data name="ministudent_btn_cancel" xml:space="preserve">
     <value>Cancel</value>
   </data>
+  <data name="msg_title_confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="msg_title_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="msg_title_success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="msg_title_warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
   <data name="register_btn_signup" xml:space="preserve">
     <value>Register</value>
   </data>
@@ -139,6 +151,6 @@
     <value>The Password Not Match</value>
   </data>
   <data name="register_msg_registerSuccessfully" xml:space="preserve">
-    <value />
+    <value>Successfully Registered</value>
   </data>
 </root>

@@ -288,7 +288,7 @@
     <value>16</value>
   </data>
   <data name="bunifuCircleProgress1.Text" xml:space="preserve">
-    <value />
+    <value>50</value>
   </data>
   <data name="&gt;&gt;bunifuCircleProgress1.Name" xml:space="preserve">
     <value>bunifuCircleProgress1</value>

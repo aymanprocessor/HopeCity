@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.Entity.Validation;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,14 +26,14 @@ namespace HopeCity.Forms
             studentModel.name = txtName.Text.Trim();
             studentModel.gender = cbGender.selectedValue.Trim();
             studentModel.nat = txtNational.Text.Trim();
-            studentModel.dob = txtDOB.Text.Trim();
-            studentModel.date = DateTime.Now.ToShortDateString();
-            using (HopecityEntities db = new HopecityEntities())
+            studentModel.dob = DateTime.ParseExact(txtDOB.Text.Trim(), "dd/MM/yyyy", CultureInfo.InvariantCulture).Date;
+            studentModel.date = DateTime.Now.Date;
+            using (hcDataContext db = new hcDataContext())
             {
                 try
                 {
-                    db.students.Add(studentModel);
-                    db.SaveChanges();
+                    db.students.InsertOnSubmit(studentModel);
+                    db.SubmitChanges();
                 }
                 catch (DbEntityValidationException ex)
                 {

@@ -14,10 +14,17 @@ namespace HopeCity.Forms
     public partial class Students : Form
     {
         private student studentModel = new student();
+        private MainForm mainForm;
 
         public Students()
         {
             InitializeComponent();
+        }
+
+        public Students(MainForm _mainForm)
+        {
+            InitializeComponent();
+            mainForm = _mainForm;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -36,12 +43,12 @@ namespace HopeCity.Forms
             populate();
         }
 
-        private async void populate()
+        private void populate()
         {
             dgStudent.AutoGenerateColumns = false;
-            using (HopecityEntities db = new HopecityEntities())
+            using (hcDataContext db = new hcDataContext())
             {
-                dgStudent.DataSource = await db.students.ToListAsync();
+                dgStudent.DataSource = db.students;
                 bunifuCircleProgress1.Visible = false;
             }
         }
@@ -50,13 +57,12 @@ namespace HopeCity.Forms
         {
             if (dgStudent.CurrentRow.Index != -1)
             {
-                studentModel.Id = dgStudent.CurrentRow.Cells["NatID"].Value.ToString();
-                using (HopecityEntities db = new HopecityEntities())
+                using (hcDataContext db = new hcDataContext())
                 {
-                    if (db.Entry(studentModel).State == EntityState.Detached)
-                        db.students.Attach(studentModel);
-                    db.Entry(studentModel).State = EntityState.Deleted;
-                    db.SaveChanges();
+                    var id = db.students.FirstOrDefault(x => x.Id.Equals(dgStudent.CurrentRow.Cells["NatID"].Value));
+                    db.students.DeleteOnSubmit(id);
+                    db.SubmitChanges();
+
                     populate();
                 }
             }
@@ -67,11 +73,29 @@ namespace HopeCity.Forms
             this.Close();
         }
 
-        private void dgStudent_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dgStudent_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
         }
 
-        private void dgStudent_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        private void dgStudent_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dgStudent.CurrentRow.Index > -1)
+            {
+                using (hcDataContext db = new hcDataContext())
+                {
+                    student result = db.students.FirstOrDefault(x => x.Id.Equals(dgStudent.CurrentRow.Cells["NatID"].Value));
+                    mainForm.removeForm();
+                    Form form = new StudentDetail(result, mainForm);
+                    mainForm.showForm(form);
+                }
+            }
+        }
+
+        private void dgStudent_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
         }
     }

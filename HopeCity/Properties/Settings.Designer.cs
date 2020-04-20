@@ -57,5 +57,16 @@ namespace HopeCity.Properties {
                 this["currentuser"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\HopecityDB.md" +
+            "f;Integrated Security=True")]
+        public string HopecityDBConnectionString {
+            get {
+                return ((string)(this["HopecityDBConnectionString"]));
+            }
+        }
     }
 }

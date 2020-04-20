@@ -15,11 +15,68 @@ namespace HopeCity
     public partial class QA
     {
         public int Id { get; set; }
-        public string Question { get; set; }
-        public string QAnswer { get; set; }
-        public string SubQuestion { get; set; }
-        public string SQAnswer { get; set; }
         public string studentId { get; set; }
+        public Nullable<bool> A1 { get; set; }
+        public string A1D { get; set; }
+        public Nullable<bool> A2 { get; set; }
+        public string A2D { get; set; }
+        public string A3 { get; set; }
+        public Nullable<bool> A4 { get; set; }
+        public Nullable<bool> A5 { get; set; }
+        public string A5D { get; set; }
+        public Nullable<bool> A6 { get; set; }
+        public Nullable<bool> A7 { get; set; }
+        public Nullable<bool> A8 { get; set; }
+        public string A8D { get; set; }
+        public Nullable<bool> A9 { get; set; }
+        public string A9D { get; set; }
+        public Nullable<bool> A10 { get; set; }
+        public Nullable<bool> A11 { get; set; }
+        public Nullable<bool> A12 { get; set; }
+        public Nullable<bool> A13 { get; set; }
+        public string A14 { get; set; }
+        public Nullable<bool> A15 { get; set; }
+        public string A15D { get; set; }
+        public Nullable<bool> A16 { get; set; }
+        public string A16D { get; set; }
+        public Nullable<bool> A17 { get; set; }
+        public string A17D { get; set; }
+        public Nullable<bool> A18 { get; set; }
+        public string A18D { get; set; }
+        public Nullable<bool> A19 { get; set; }
+        public Nullable<bool> A20 { get; set; }
+        public Nullable<bool> A21 { get; set; }
+        public string A21D { get; set; }
+        public Nullable<bool> A22 { get; set; }
+        public string A22D { get; set; }
+        public Nullable<bool> A23 { get; set; }
+        public string A23D { get; set; }
+        public Nullable<bool> A24 { get; set; }
+        public string A24D { get; set; }
+        public string A25 { get; set; }
+        public Nullable<bool> A26 { get; set; }
+        public string A26D { get; set; }
+        public string A27 { get; set; }
+        public Nullable<bool> A28 { get; set; }
+        public string A28D { get; set; }
+        public string A29 { get; set; }
+        public string A30 { get; set; }
+        public string A31 { get; set; }
+        public Nullable<bool> A32 { get; set; }
+        public string A33 { get; set; }
+        public string A34 { get; set; }
+        public string A35 { get; set; }
+        public string A36 { get; set; }
+        public Nullable<bool> A37 { get; set; }
+        public Nullable<bool> A38 { get; set; }
+        public Nullable<bool> A39 { get; set; }
+        public Nullable<bool> A41 { get; set; }
+        public string A42 { get; set; }
+        public string A43 { get; set; }
+        public string A44 { get; set; }
+        public string A45 { get; set; }
+        public string A46 { get; set; }
+        public string A39D { get; set; }
     
         public virtual student student { get; set; }
     }

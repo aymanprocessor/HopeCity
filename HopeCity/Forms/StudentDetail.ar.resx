@@ -118,114 +118,66 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ddGender.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 94</value>
-  </data>
-  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
-    <value>670, 200</value>
-  </data>
-  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 16</value>
-  </data>
-  <data name="label25.Text" xml:space="preserve">
-    <value>عدد الأخوة واسمائهم</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tbBroNum.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tbBroNum.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tbName.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAABkCAYAAACFMNyhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
-        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
-        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshgoUQ
-        wUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE
-        CBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAh
-        RLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQL
-        IYKFkL9g76/jmoeZ7bnZ6MoVaBjjB6PBcrD2WoXEAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKhJREFUeF7t07EJAkEARNEtRDC1YzGwMju4C68AZWETO9gP78Ekk/8BxDze5+f2
+        PL5mtudmoyvXMeYB7Gs2unIVLOxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKF
+        EMFCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyF/wd5fxzUPM9tzs9GVK9Aw
+        xg9aLV1ERzTKcwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="tbBroNum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 221</value>
+  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 94</value>
   </data>
-  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>743, 137</value>
-  </data>
-  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 16</value>
-  </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>السن</value>
-  </data>
-  <data name="tbAge.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tbDOB.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
-        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
-        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
-        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKhJREFUeF7t07EJAkEARNEtRDC1YzGwMju4C68AZWETO9gP78Ekk/8BxDze5+f2
+        PL5mtudmoyvXMeYB7Gs2unIVLOxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKF
+        EMFCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyF/wd5fxzUPM9tzs9GVK9Aw
+        xg9aLV1ERzTKcwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="tbAge.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="tbDOB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 94</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>بيانات الأبن</value>
+  </data>
+  <data name="tbRank.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKhJREFUeF7t07EJAkEARNEtRDC1YzGwMju4C68AZWETO9gP78Ekk/8BxDze5+f2
+        PL5mtudmoyvXMeYB7Gs2unIVLOxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKF
+        EMFCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyF/wd5fxzUPM9tzs9GVK9Aw
+        xg9aLV1ERzTKcwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tbRank.Location" type="System.Drawing.Point, System.Drawing">
     <value>538, 158</value>
   </data>
-  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 137</value>
-  </data>
-  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 16</value>
-  </data>
-  <data name="label19.Text" xml:space="preserve">
-    <value>محل الإقامة</value>
-  </data>
-  <data name="tbCity.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tbNational.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
-        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
-        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
-        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKhJREFUeF7t07EJAkEARNEtRDC1YzGwMju4C68AZWETO9gP78Ekk/8BxDze5+f2
+        PL5mtudmoyvXMeYB7Gs2unIVLOxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKF
+        EMFCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyF/wd5fxzUPM9tzs9GVK9Aw
+        xg9aLV1ERzTKcwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="tbCity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 158</value>
+  <data name="tbNational.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 158</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 70</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 16</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>تاريخ الميلاد</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>497, 70</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 16</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>النوع</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 137</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 16</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>الجنسية</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>419, 200</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 16</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>موقع الطفل بين اخواته</value>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>708, 73</value>
@@ -236,98 +188,219 @@
   <data name="label1.Text" xml:space="preserve">
     <value>الإسم الثلاثي</value>
   </data>
-  <data name="tbNational.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 137</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>موقع الطفل بين اخواته</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 137</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>الجنسية</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 70</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 70</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="tbCity.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
-        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
-        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
-        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKhJREFUeF7t07EJAkEARNEtRDC1YzGwMju4C68AZWETO9gP78Ekk/8BxDze5+f2
+        PL5mtudmoyvXMeYB7Gs2unIVLOxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKF
+        EMFCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyF/wd5fxzUPM9tzs9GVK9Aw
+        xg9aLV1ERzTKcwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="tbNational.Location" type="System.Drawing.Point, System.Drawing">
-    <value>294, 158</value>
+  <data name="tbCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 158</value>
   </data>
-  <data name="tbRank.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
-        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
-        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
-        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
-</value>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="tbRank.Location" type="System.Drawing.Point, System.Drawing">
-    <value>294, 221</value>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 137</value>
   </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>بيانات الأبن</value>
-  </data>
-  <data name="tbDOB.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
-        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
-        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
-        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="tbDOB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 94</value>
-  </data>
-  <data name="tbName.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVHhe7dOxCQJBAETRLUQwtWMxsDI7uAuvAGVhEzvY
-        D+/BJJP/AcQ83ufn9jy+ZrbnZqMr1zHmAexrNrpyFSzsTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAi
-        WAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8He
-        X8c1DzPbc7PRlSvQMMYPWi1dREc0ynMAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 94</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 39</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 74</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 16</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
+  <data name="label19.Text" xml:space="preserve">
     <value>محل الإقامة</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>450, 74</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbBroNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 16</value>
+  <data name="tbBroNum.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAABkCAYAAACFMNyhAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAWNJREFUeF7t07EJAkEARNEtRDC1YzGwMju4C68AZWETO9gP78Ekk/8BxDze5+f2
+        PL5mtudmoyvXMeYB7Gs2unIVLOxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKF
+        EMFCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEs
+        hAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohg
+        IUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIE
+        CyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshgoWQv2Dvr+Oah5nt
+        udnoyhVoGOMHo8FysPZahcQAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>المؤهل الدراسي</value>
+  <data name="tbBroNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 221</value>
   </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>469, 140</value>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 16</value>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 200</value>
   </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>رقم الموبايل</value>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 16</value>
   </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>685, 140</value>
+  <data name="label25.Text" xml:space="preserve">
+    <value>عدد الأخوة واسمائهم</value>
   </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 16</value>
+  <data name="ddGender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 94</value>
   </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>رقم تليفون المنزل</value>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-11, 103</value>
+  </data>
+  <data name="label34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 28</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>الرقم القومي</value>
+  </data>
+  <data name="lblNatioanlId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 28</value>
+  </data>
+  <data name="lblNatioanlId.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 28</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 19</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>السن</value>
+  </data>
+  <data name="lblAge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 28</value>
+  </data>
+  <data name="lblAge.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-11, 22</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>بيانات الأب</value>
+  </data>
+  <data name="tbDjob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKpJREFUeF7t07EJAkEABdFtTjCziMPIkjSwryvDApSFTexgB96Dn/x8BhDzuL3P
+        4/L8mtmem42uXMeYB7Cv2ejKVbCwO8FCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQI
+        FkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE/AV7v74+8zCzPTcbXbkC
+        DWP8AKFUoutDgA8pAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbDjob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 90</value>
+  </data>
+  <data name="tbDedu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKpJREFUeF7t07EJAkEABdFtTjCziMPIkjSwryvDApSFTexgB96Dn/x8BhDzuL3P
+        4/L8mtmem42uXMeYB7Cv2ejKVbCwO8FCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQI
+        FkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE/AV7v74+8zCzPTcbXbkC
+        DWP8AKFUoutDgA8pAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbDcity.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKpJREFUeF7t07EJAkEABdFtTjCziMPIkjSwryvDApSFTexgB96Dn/x8BhDzuL3P
+        4/L8mtmem42uXMeYB7Cv2ejKVbCwO8FCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQI
+        FkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE/AV7v74+8zCzPTcbXbkC
+        DWP8AKFUoutDgA8pAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbDcity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 90</value>
+  </data>
+  <data name="tbDtel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKpJREFUeF7t07EJAkEABdFtTjCziMPIkjSwryvDApSFTexgB96Dn/x8BhDzuL3P
+        4/L8mtmem42uXMeYB7Cv2ejKVbCwO8FCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQI
+        FkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE/AV7v74+8zCzPTcbXbkC
+        DWP8AKFUoutDgA8pAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbDtel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 156</value>
+  </data>
+  <data name="tbDmob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKpJREFUeF7t07EJAkEABdFtTjCziMPIkjSwryvDApSFTexgB96Dn/x8BhDzuL3P
+        4/L8mtmem42uXMeYB7Cv2ejKVbCwO8FCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQI
+        FkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE/AV7v74+8zCzPTcbXbkC
+        DWP8AKFUoutDgA8pAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>715, 74</value>
@@ -338,101 +411,122 @@
   <data name="label11.Text" xml:space="preserve">
     <value>وظيفة الأب</value>
   </data>
-  <data name="tbDmob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVHhe7dOxCQJBAAXRbU4ws4jDyJI0sK8rwwKUhU3s
-        YAfeg5/8fAYQ87i9z+Py/JrZnpuNrlzHmAewr9noylWwsDvBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
-        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshPwF
-        e7++PvMwsz03G125Ag1j/AChVKLrQ4APKQAAAABJRU5ErkJggg==
-</value>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="tbDtel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVHhe7dOxCQJBAAXRbU4ws4jDyJI0sK8rwwKUhU3s
-        YAfeg5/8fAYQ87i9z+Py/JrZnpuNrlzHmAewr9noylWwsDvBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
-        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshPwF
-        e7++PvMwsz03G125Ag1j/AChVKLrQ4APKQAAAABJRU5ErkJggg==
-</value>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 140</value>
   </data>
-  <data name="tbDtel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 156</value>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
   </data>
-  <data name="tbDcity.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVHhe7dOxCQJBAAXRbU4ws4jDyJI0sK8rwwKUhU3s
-        YAfeg5/8fAYQ87i9z+Py/JrZnpuNrlzHmAewr9noylWwsDvBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
-        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshPwF
-        e7++PvMwsz03G125Ag1j/AChVKLrQ4APKQAAAABJRU5ErkJggg==
-</value>
+  <data name="label10.Text" xml:space="preserve">
+    <value>رقم تليفون المنزل</value>
   </data>
-  <data name="tbDcity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 90</value>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="tbDedu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVHhe7dOxCQJBAAXRbU4ws4jDyJI0sK8rwwKUhU3s
-        YAfeg5/8fAYQ87i9z+Py/JrZnpuNrlzHmAewr9noylWwsDvBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
-        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshPwF
-        e7++PvMwsz03G125Ag1j/AChVKLrQ4APKQAAAABJRU5ErkJggg==
-</value>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 140</value>
   </data>
-  <data name="tbDjob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVHhe7dOxCQJBAAXRbU4ws4jDyJI0sK8rwwKUhU3s
-        YAfeg5/8fAYQ87i9z+Py/JrZnpuNrlzHmAewr9noylWwsDvBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
-        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshPwF
-        e7++PvMwsz03G125Ag1j/AChVKLrQ4APKQAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="tbDjob.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 90</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>بيانات الأب</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 400</value>
-  </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>206, 71</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 16</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>المؤهل الدراسي</value>
-  </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>473, 74</value>
-  </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 16</value>
-  </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>وظيفة الأم</value>
-  </data>
-  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>466, 140</value>
-  </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 16</value>
   </data>
-  <data name="label15.Text" xml:space="preserve">
+  <data name="label9.Text" xml:space="preserve">
     <value>رقم الموبايل</value>
   </data>
-  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>714, 140</value>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 74</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>المؤهل الدراسي</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 74</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 16</value>
   </data>
-  <data name="label16.Text" xml:space="preserve">
+  <data name="label7.Text" xml:space="preserve">
     <value>محل الإقامة</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-11, 464</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>بيانات الأم</value>
+  </data>
+  <data name="tbMname.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKZJREFUeF7t07ENwlAUBMEXkNIzIqFIyiC3wZYDSvgrzUiXXL4DxGyv+3t/zG5m
+        a+5o9Mp15jyBdf0avXIVLCxPsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyH/wW7P2+eM1syW3NHolSvQMPMF
+        zIcfKO6wUPAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbMname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 90</value>
+  </data>
+  <data name="tbMjob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKZJREFUeF7t07ENwlAUBMEXkNIzIqFIyiC3wZYDSvgrzUiXXL4DxGyv+3t/zG5m
+        a+5o9Mp15jyBdf0avXIVLCxPsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyH/wW7P2+eM1syW3NHolSvQMPMF
+        zIcfKO6wUPAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbMedu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKZJREFUeF7t07ENwlAUBMEXkNIzIqFIyiC3wZYDSvgrzUiXXL4DxGyv+3t/zG5m
+        a+5o9Mp15jyBdf0avXIVLCxPsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyH/wW7P2+eM1syW3NHolSvQMPMF
+        zIcfKO6wUPAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbMedu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 90</value>
+  </data>
+  <data name="tbMcity.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKZJREFUeF7t07ENwlAUBMEXkNIzIqFIyiC3wZYDSvgrzUiXXL4DxGyv+3t/zG5m
+        a+5o9Mp15jyBdf0avXIVLCxPsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyH/wW7P2+eM1syW3NHolSvQMPMF
+        zIcfKO6wUPAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbMcity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 156</value>
+  </data>
+  <data name="tbMmob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKZJREFUeF7t07ENwlAUBMEXkNIzIqFIyiC3wZYDSvgrzUiXXL4DxGyv+3t/zG5m
+        a+5o9Mp15jyBdf0avXIVLCxPsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyH/wW7P2+eM1syW3NHolSvQMPMF
+        zIcfKO6wUPAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
     <value>730, 71</value>
@@ -443,174 +537,59 @@
   <data name="label17.Text" xml:space="preserve">
     <value>اسم الأم</value>
   </data>
-  <data name="tbMmob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcJQFATBF5DSMyKhSMogt8GWA0r4K81I
-        l1y+A8Rsr/t7f8xuZmvuaPTKdeY8gXX9Gr1yFSwsT7AQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
-        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAsh/8Fuz9vn
-        jNbMltzR6JUr0DDzBcyHHyjusFDwAAAAAElFTkSuQmCC
-</value>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="tbMcity.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcJQFATBF5DSMyKhSMogt8GWA0r4K81I
-        l1y+A8Rsr/t7f8xuZmvuaPTKdeY8gXX9Gr1yFSwsT7AQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
-        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAsh/8Fuz9vn
-        jNbMltzR6JUr0DDzBcyHHyjusFDwAAAAAElFTkSuQmCC
-</value>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>714, 140</value>
   </data>
-  <data name="tbMcity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 156</value>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
   </data>
-  <data name="tbMedu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcJQFATBF5DSMyKhSMogt8GWA0r4K81I
-        l1y+A8Rsr/t7f8xuZmvuaPTKdeY8gXX9Gr1yFSwsT7AQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
-        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAsh/8Fuz9vn
-        jNbMltzR6JUr0DDzBcyHHyjusFDwAAAAAElFTkSuQmCC
-</value>
+  <data name="label16.Text" xml:space="preserve">
+    <value>محل الإقامة</value>
   </data>
-  <data name="tbMedu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 90</value>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="tbMjob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcJQFATBF5DSMyKhSMogt8GWA0r4K81I
-        l1y+A8Rsr/t7f8xuZmvuaPTKdeY8gXX9Gr1yFSwsT7AQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
-        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAsh/8Fuz9vn
-        jNbMltzR6JUr0DDzBcyHHyjusFDwAAAAAElFTkSuQmCC
-</value>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 140</value>
   </data>
-  <data name="tbMname.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcJQFATBF5DSMyKhSMogt8GWA0r4K81I
-        l1y+A8Rsr/t7f8xuZmvuaPTKdeY8gXX9Gr1yFSwsT7AQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
-        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAsh/8Fuz9vn
-        jNbMltzR6JUr0DDzBcyHHyjusFDwAAAAAElFTkSuQmCC
-</value>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 16</value>
   </data>
-  <data name="tbMname.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 90</value>
+  <data name="label15.Text" xml:space="preserve">
+    <value>رقم الموبايل</value>
   </data>
-  <data name="label18.Text" xml:space="preserve">
-    <value>بيانات الأم</value>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 74</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>وظيفة الأم</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 71</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>المؤهل الدراسي</value>
   </data>
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 631</value>
+    <value>-11, 695</value>
   </data>
-  <data name="cbOther.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB+SURBVDhPY6Ap2M/AwAHEGUDcQCYuAGIJqHFgAwUOMDC8
-        B+L/FOLvQLMMYIZmQAXvA9nYXEEQA/UeB5kBZFfADAUJggQawAJkAAwzRg0dNXTU0FFDwQJkAJyGAvF+
-        EJscDNKLbqgB1FCKMdCsALChIADkeIBsoRBHMDAwMAAAyfwZkHK5/nkAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="cbOther.Location" type="System.Drawing.Point, System.Drawing">
-    <value>445, 76</value>
-  </data>
-  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
-    <value>413, 79</value>
-  </data>
-  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 16</value>
-  </data>
-  <data name="label28.Text" xml:space="preserve">
-    <value>آخري</value>
-  </data>
-  <data name="cbMum.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB+SURBVDhPY6Ap2M/AwAHEGUDcQCYuAGIJqHFgAwUOMDC8
-        B+L/FOLvQLMMYIZmQAXvA9nYXEEQA/UeB5kBZFfADAUJggQawAJkAAwzRg0dNXTU0FFDwQJkAJyGAvF+
-        EJscDNKLbqgB1FCKMdCsALChIADkeIBsoRBHMDAwMAAAyfwZkHK5/nkAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="cbMum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>535, 76</value>
-  </data>
-  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
-    <value>511, 79</value>
-  </data>
-  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 16</value>
-  </data>
-  <data name="label27.Text" xml:space="preserve">
-    <value>الأم</value>
-  </data>
-  <data name="cbDad.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB+SURBVDhPY6Ap2M/AwAHEGUDcQCYuAGIJqHFgAwUOMDC8
-        B+L/FOLvQLMMYIZmQAXvA9nYXEEQA/UeB5kBZFfADAUJggQawAJkAAwzRg0dNXTU0FFDwQJkAJyGAvF+
-        EJscDNKLbqgB1FCKMdCsALChIADkeIBsoRBHMDAwMAAAyfwZkHK5/nkAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="cbDad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>624, 76</value>
-  </data>
-  <data name="tbProblem.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAf4AAAAjCAYAAAB1uGhgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADOSURBVHhe7dWxDQJBEATBNd79/NMBEQZhEADopHNI4bpK
-        GmcS6AEAYl73/X7MfM3MzOzMrdbv7M+sAwA412r9zr7wA8DphB8AQoQfAEKEHwBChB8AQoQfAEKEHwBC
-        hB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBC
-        hB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEL+wv+8rs86zMzM7Myt1u/sAwANMz//xYvURtTu
-        kQAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="tbProblem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 164</value>
-  </data>
-  <data name="tbWhocare.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAClSURBVHhe7dOxCUJBFETRF/z099+OYhmWYQHKwiZ2sBfO
-        gUkmvwPEvO77/Zj5mtmZW43uXGfWAZxrNbpzFSycTrAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgR
-        LIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyECBZCBAshf8E+r+uz
-        DjM7c6vRnSvQMPMD5veTuFThYJQAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="tbWhocare.Location" type="System.Drawing.Point, System.Drawing">
-    <value>408, 119</value>
-  </data>
-  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>655, 176</value>
-  </data>
-  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 16</value>
-  </data>
-  <data name="label23.Text" xml:space="preserve">
-    <value>شكوي الأهل</value>
-  </data>
-  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>655, 128</value>
-  </data>
-  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 16</value>
-  </data>
-  <data name="label22.Text" xml:space="preserve">
-    <value>من القائم برعاية الطفل ؟</value>
-  </data>
-  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>656, 80</value>
-  </data>
-  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 16</value>
-  </data>
-  <data name="label21.Text" xml:space="preserve">
-    <value>مع من يقيم الطفل ؟</value>
-  </data>
-  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="label24.Text" xml:space="preserve">
-    <value>بيانات آخري</value>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
     <value>598, 79</value>
@@ -621,11 +600,137 @@
   <data name="label26.Text" xml:space="preserve">
     <value>الأب</value>
   </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>بيانات آخري</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 80</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>مع من يقيم الطفل ؟</value>
+  </data>
+  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 128</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 16</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>من القائم برعاية الطفل ؟</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 176</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>شكوي الأهل</value>
+  </data>
+  <data name="tbWhocare.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKVJREFUeF7t07EJQkEURNEX/PT3345iGZZhAcrCJnawF86BSSa/A8S87vv9mPma
+        2Zlbje5cZ9YBnGs1unMVLJxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyF/wT6v67MOMztzq9GdK9Aw8wPm
+        95O4VOFglAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tbWhocare.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 119</value>
+  </data>
+  <data name="tbProblem.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAf4AAAAjCAYAAAB1uGhgAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAM5JREFUeF7t1bENAkEQBME13v380wERBmEQAOikc0jhukoaZxLoAQBiXvf9fsx8
+        zczM7Myt1u/sz6wDADjXav3OvvADwOmEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKE
+        HwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKE
+        HwBChB8AQoQfAEKEHwBChB8AQv7C/7yuzzrMzMzszK3W7+wDAA0zP//Fi9RG1O6RAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbProblem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 164</value>
+  </data>
+  <data name="cbDad.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAH5JREFUOE9joCnYz8DAAcQZQNxAJi4AYgmocWADBQ4wMLwH4v8U4u9AswxghmZA
+        Be8D2dhcQRAD9R4HmQFkV8AMBQmCBBrAAmQADDNGDR01dNTQUUPBAmQAnIYC8X4QmxwM0otuqAHUUIox
+        0KwAsKEgAOR4gGyhEEcwMDAwAADJ/BmQcrn+eQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cbDad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 76</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 79</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 16</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>الأم</value>
+  </data>
+  <data name="cbMum.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAH5JREFUOE9joCnYz8DAAcQZQNxAJi4AYgmocWADBQ4wMLwH4v8U4u9AswxghmZA
+        Be8D2dhcQRAD9R4HmQFkV8AMBQmCBBrAAmQADDNGDR01dNTQUUPBAmQAnIYC8X4QmxwM0otuqAHUUIox
+        0KwAsKEgAOR4gGyhEEcwMDAwAADJ/BmQcrn+eQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cbMum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 76</value>
+  </data>
+  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 79</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>آخري</value>
+  </data>
+  <data name="cbOther.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAH5JREFUOE9joCnYz8DAAcQZQNxAJi4AYgmocWADBQ4wMLwH4v8U4u9AswxghmZA
+        Be8D2dhcQRAD9R4HmQFkV8AMBQmCBBrAAmQADDNGDR01dNTQUUPBAmQAnIYC8X4QmxwM0otuqAHUUIox
+        0KwAsKEgAOR4gGyhEEcwMDAwAADJ/BmQcrn+eQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cbOther.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 76</value>
+  </data>
   <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 862</value>
+    <value>-11, 926</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>928, 1058</value>
+    <value>864, 1058</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt</value>
