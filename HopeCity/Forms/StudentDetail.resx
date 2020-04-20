@@ -156,6 +156,9 @@
   <data name="tbDOB.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>100, 35</value>
   </data>
+  <data name="&gt;&gt;ddGender.Type" xml:space="preserve">
+    <value>Bunifu.UI.WinForms.BunifuDropdown, Bunifu.UI.WinForms.BunifuDropdown, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
@@ -174,8 +177,8 @@
   <data name="&gt;&gt;label15.Name" xml:space="preserve">
     <value>label15</value>
   </data>
-  <data name="bunifuUserControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -183,8 +186,17 @@
   <data name="&gt;&gt;tbAge.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="&gt;&gt;cbDad.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbDedu.Name" xml:space="preserve">
+    <value>tbDedu</value>
+  </data>
   <data name="tbBroNum.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 16</value>
   </data>
   <data name="ddGender.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 10pt</value>
@@ -204,9 +216,6 @@
   <data name="cbOther.Location" type="System.Drawing.Point, System.Drawing">
     <value>431, 71</value>
   </data>
-  <data name="&gt;&gt;tbCity.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
   <data name="tbCity.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 35</value>
   </data>
@@ -218,6 +227,9 @@
   </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Age</value>
   </data>
   <data name="tbBroNum.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -243,16 +255,10 @@
   <data name="&gt;&gt;tbMname.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="&gt;&gt;bunifuUserControl1.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;bunifuUserControl4.Type" xml:space="preserve">
-    <value>Bunifu.UI.WinForms.BunifuUserControl, Bunifu.UI.WinForms.BunifuUserControl, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
-  </data>
   <data name="label25.Text" xml:space="preserve">
     <value>Number and Name of brothers</value>
   </data>
-  <data name="&gt;&gt;tbMname.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;label22.Type" xml:space="preserve">
@@ -261,17 +267,17 @@
   <data name="tbMedu.Location" type="System.Drawing.Point, System.Drawing">
     <value>537, 90</value>
   </data>
-  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
   <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 10pt, style=Bold</value>
   </data>
-  <data name="label18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 16</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>City</value>
   </data>
   <data name="ddGender.Location" type="System.Drawing.Point, System.Drawing">
     <value>296, 93</value>
@@ -282,9 +288,6 @@
   <data name="label11.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="ddGender.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
   <data name="panel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -294,8 +297,11 @@
   <data name="&gt;&gt;label15.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 10pt, style=Bold</value>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="label17.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -324,9 +330,6 @@
   <data name="&gt;&gt;tbBroNum.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 28</value>
   </data>
@@ -336,20 +339,11 @@
   <data name="&gt;&gt;cbOther.Name" xml:space="preserve">
     <value>cbOther</value>
   </data>
-  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="tbMname.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>100, 35</value>
-  </data>
   <data name="label26.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>panel2</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
   </data>
   <data name="label19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -366,17 +360,11 @@
   <data name="&gt;&gt;label10.Name" xml:space="preserve">
     <value>label10</value>
   </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 16</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Father</value>
   </data>
   <data name="&gt;&gt;label21.Name" xml:space="preserve">
     <value>label21</value>
-  </data>
-  <data name="&gt;&gt;bunifuUserControl4.ZOrder" xml:space="preserve">
-    <value>12</value>
   </data>
   <data name="ddGender.Items1" xml:space="preserve">
     <value>انثي</value>
@@ -402,17 +390,8 @@
   <data name="&gt;&gt;label28.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="tbName.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 35</value>
-  </data>
-  <data name="&gt;&gt;bunifuUserControl4.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 74</value>
   </data>
   <data name="&gt;&gt;tbMedu.Parent" xml:space="preserve">
     <value>panel3</value>
@@ -420,23 +399,44 @@
   <data name="&gt;&gt;label11.Name" xml:space="preserve">
     <value>label11</value>
   </data>
+  <data name="cbMum.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 862</value>
+  </data>
   <data name="label22.Text" xml:space="preserve">
     <value>Who cares the child?</value>
   </data>
   <data name="&gt;&gt;bunifuUserControl4.Name" xml:space="preserve">
     <value>bunifuUserControl4</value>
   </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
   <data name="&gt;&gt;label26.Name" xml:space="preserve">
     <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 16</value>
   </data>
-  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
-    <value>286, 74</value>
+  <data name="&gt;&gt;tbMname.Parent" xml:space="preserve">
+    <value>panel3</value>
   </data>
-  <data name="&gt;&gt;cbDad.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="tbProblem.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbWhocare.Name" xml:space="preserve">
+    <value>tbWhocare</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>Phone Number</value>
@@ -444,11 +444,17 @@
   <data name="label24.Text" xml:space="preserve">
     <value>Other Details</value>
   </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 12pt</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -471,8 +477,17 @@
   <data name="&gt;&gt;label17.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tbProblem.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>100, 35</value>
+  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tbDmob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKpJREFUeF7t07EJAkEABdFtTjCziMPIkjSwryvDApSFTexgB96Dn/x8BhDzuL3P
+        4/L8mtmem42uXMeYB7Cv2ejKVbCwO8FCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQI
+        FkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE/AV7v74+8zCzPTcbXbkC
+        DWP8AKFUoutDgA8pAAAAAElFTkSuQmCC
+</value>
   </data>
   <data name="label20.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -498,23 +513,17 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="tbCity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="tbProblem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>510, 35</value>
-  </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>48, 74</value>
   </data>
-  <data name="bunifuUserControl4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tbDedu.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;tbDjob.Type" xml:space="preserve">
+    <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
   </data>
   <data name="bunifuUserControl2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 16</value>
   </data>
   <data name="tbDcity.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 35</value>
@@ -525,14 +534,17 @@
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 74</value>
+  </data>
   <data name="&gt;&gt;label17.Name" xml:space="preserve">
     <value>label17</value>
   </data>
-  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 16</value>
-  </data>
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
   </data>
   <data name="tbDtel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -540,8 +552,14 @@
   <data name="tbNational.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
+  <data name="tbDOB.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="tbAge.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 35</value>
+  </data>
+  <data name="&gt;&gt;tbDtel.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="cbOther.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -557,20 +575,11 @@
   <data name="tbDjob.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 16</value>
-  </data>
   <data name="tbMjob.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>100, 35</value>
   </data>
-  <data name="cbDad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>261, 71</value>
-  </data>
   <data name="&gt;&gt;tbDjob.Parent" xml:space="preserve">
     <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;tbMjob.ZOrder" xml:space="preserve">
-    <value>8</value>
   </data>
   <data name="&gt;&gt;tbCity.Type" xml:space="preserve">
     <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
@@ -590,14 +599,17 @@
   <data name="bunifuUserControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 16</value>
+  <data name="&gt;&gt;bunifuUserControl1.Type" xml:space="preserve">
+    <value>Bunifu.UI.WinForms.BunifuUserControl, Bunifu.UI.WinForms.BunifuUserControl, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
   </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="bunifuUserControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="tbDedu.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="cbMum.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
   </data>
   <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
     <value>533, 137</value>
@@ -614,8 +626,8 @@
   <data name="tbRank.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 35</value>
   </data>
-  <data name="&gt;&gt;tbDedu.Name" xml:space="preserve">
-    <value>tbDedu</value>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>panel3</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 10pt, style=Bold</value>
@@ -623,14 +635,11 @@
   <data name="&gt;&gt;label21.Parent" xml:space="preserve">
     <value>panel4</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
   <data name="tbWhocare.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>100, 35</value>
-  </data>
-  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
-    <value>panel4</value>
   </data>
   <data name="&gt;&gt;tbDmob.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -662,14 +671,8 @@
   <data name="tbMname.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 10pt, style=Bold</value>
-  </data>
   <data name="tbName.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>100, 35</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label26.Parent" xml:space="preserve">
     <value>panel4</value>
@@ -689,29 +692,29 @@
   <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 10pt, style=Bold</value>
   </data>
+  <data name="cbDad.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
   <data name="&gt;&gt;tbName.Name" xml:space="preserve">
     <value>tbName</value>
-  </data>
-  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;tbProblem.Parent" xml:space="preserve">
     <value>panel4</value>
   </data>
-  <data name="&gt;&gt;tbDjob.Type" xml:space="preserve">
-    <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Date of birth</value>
   </data>
-  <data name="&gt;&gt;tbAge.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
     <value>311, 4</value>
   </data>
-  <data name="&gt;&gt;tbMedu.Name" xml:space="preserve">
-    <value>tbMedu</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 12pt</value>
   </data>
   <data name="tbNational.Location" type="System.Drawing.Point, System.Drawing">
     <value>294, 161</value>
@@ -728,14 +731,17 @@
   <data name="&gt;&gt;label23.Name" xml:space="preserve">
     <value>label23</value>
   </data>
-  <data name="label21.Text" xml:space="preserve">
-    <value>With whom the child lives?</value>
+  <data name="label18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="tbMjob.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 28</value>
+  <data name="&gt;&gt;tbMmob.Type" xml:space="preserve">
+    <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Nationality</value>
   </data>
   <data name="&gt;&gt;tbNational.Type" xml:space="preserve">
     <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
@@ -746,20 +752,14 @@
   <data name="bunifuUserControl3.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="tbProblem.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
   <data name="bunifuUserControl3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="tbName.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAKhJREFUeF7t07EJAkEARNEtRDC1YzGwMju4C68AZWETO9gP78Ekk/8BxDze5+f2
-        PL5mtudmoyvXMeYB7Gs2unIVLOxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKF
-        EMFCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyF/wd5fxzUPM9tzs9GVK9Aw
-        xg9aLV1ERzTKcwAAAABJRU5ErkJggg==
-</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 16</value>
@@ -782,11 +782,14 @@
   <data name="label24.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="bunifuUserControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="cbMum.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="tbDtel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 35</value>
   </data>
   <data name="tbDjob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -809,6 +812,9 @@
   <data name="&gt;&gt;cbMum.Parent" xml:space="preserve">
     <value>panel4</value>
   </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
   <data name="tbDcity.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -823,9 +829,6 @@
   </data>
   <data name="&gt;&gt;tbMcity.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="&gt;&gt;cbOther.Type" xml:space="preserve">
-    <value>Bunifu.UI.WinForms.BunifuCheckBox, Bunifu.UI.WinForms.BunifuCheckBox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -845,14 +848,14 @@
   <data name="&gt;&gt;label12.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="tbMname.Location" type="System.Drawing.Point, System.Drawing">
     <value>50, 90</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
   </data>
   <data name="label25.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -890,8 +893,14 @@
   <data name="&gt;&gt;tbDjob.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="tbDmob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 156</value>
+  </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 16</value>
+  </data>
+  <data name="&gt;&gt;tbAge.Type" xml:space="preserve">
+    <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -908,6 +917,12 @@
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>814, 358</value>
   </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>With whom the child lives?</value>
+  </data>
+  <data name="&gt;&gt;bunifuUserControl2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
   <data name="ddGender.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -917,17 +932,23 @@
   <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 137</value>
   </data>
+  <data name="tbBroNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 225</value>
+  </data>
   <data name="tbMmob.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>100, 35</value>
   </data>
   <data name="&gt;&gt;tbMcity.Type" xml:space="preserve">
     <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
   </data>
-  <data name="tbMcity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 156</value>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>panel4</value>
   </data>
   <data name="&gt;&gt;label11.Parent" xml:space="preserve">
     <value>panel1</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Birth order</value>
   </data>
   <data name="&gt;&gt;bunifuUserControl1.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -941,9 +962,6 @@
   <data name="tbDOB.Location" type="System.Drawing.Point, System.Drawing">
     <value>536, 93</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>533, 70</value>
-  </data>
   <data name="panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -955,23 +973,17 @@
         0KwAsKEgAOR4gGyhEEcwMDAwAADJ/BmQcrn+eQAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="&gt;&gt;tbRank.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
   <data name="cbDad.Size" type="System.Drawing.Size, System.Drawing">
     <value>21, 21</value>
   </data>
-  <data name="tbMjob.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 90</value>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 74</value>
   </data>
-  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tbDedu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAKpJREFUeF7t07EJAkEABdFtTjCziMPIkjSwryvDApSFTexgB96Dn/x8BhDzuL3P
-        4/L8mtmem42uXMeYB7Cv2ejKVbCwO8FCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQI
-        FkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE/AV7v74+8zCzPTcbXbkC
-        DWP8AKFUoutDgA8pAAAAAElFTkSuQmCC
-</value>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>293, 202</value>
@@ -979,11 +991,11 @@
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;bunifuUserControl1.Type" xml:space="preserve">
-    <value>Bunifu.UI.WinForms.BunifuUserControl, Bunifu.UI.WinForms.BunifuUserControl, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 202</value>
@@ -1012,8 +1024,8 @@
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 16</value>
   </data>
-  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="tbProblem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 35</value>
   </data>
   <data name="label23.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1024,14 +1036,17 @@
   <data name="label19.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="&gt;&gt;tbDmob.Name" xml:space="preserve">
-    <value>tbDmob</value>
+  <data name="&gt;&gt;tbAge.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
   <data name="label24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;tbName.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tbDedu.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
   <data name="bunifuUserControl3.Size" type="System.Drawing.Size, System.Drawing">
     <value>814, 225</value>
@@ -1048,11 +1063,8 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Son Details</value>
   </data>
-  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 16</value>
+  <data name="&gt;&gt;tbDcity.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
   <data name="&gt;&gt;tbDOB.ZOrder" xml:space="preserve">
     <value>15</value>
@@ -1081,11 +1093,8 @@
   <data name="&gt;&gt;tbBroNum.Name" xml:space="preserve">
     <value>tbBroNum</value>
   </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;tbDedu.Type" xml:space="preserve">
     <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
@@ -1101,6 +1110,9 @@
   </data>
   <data name="cbOther.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -1120,8 +1132,8 @@
         xg9aLV1ERzTKcwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="&gt;&gt;tbDtel.Type" xml:space="preserve">
-    <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  <data name="tbDmob.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="tbMname.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1156,14 +1168,14 @@
   <data name="&gt;&gt;tbCity.Name" xml:space="preserve">
     <value>tbCity</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;label15.Parent" xml:space="preserve">
     <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;tbMmob.Name" xml:space="preserve">
+    <value>tbMmob</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1180,8 +1192,8 @@
   <data name="label15.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 16</value>
+  <data name="&gt;&gt;tbMedu.Name" xml:space="preserve">
+    <value>tbMedu</value>
   </data>
   <data name="tbMcity.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1192,26 +1204,23 @@
         zIcfKO6wUPAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="&gt;&gt;tbMedu.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="tbMedu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="&gt;&gt;tbMmob.Parent" xml:space="preserve">
-    <value>panel3</value>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
   <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 10pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;tbDmob.Name" xml:space="preserve">
+    <value>tbDmob</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>814, 225</value>
-  </data>
-  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 10pt, style=Bold</value>
   </data>
   <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 162</value>
@@ -1234,32 +1243,23 @@
   <data name="label13.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="tbMmob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAKZJREFUeF7t07ENwlAUBMEXkNIzIqFIyiC3wZYDSvgrzUiXXL4DxGyv+3t/zG5m
-        a+5o9Mp15jyBdf0avXIVLCxPsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
-        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyH/wW7P2+eM1syW3NHolSvQMPMF
-        zIcfKO6wUPAAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>Mother`s Job</value>
+  <data name="&gt;&gt;tbProblem.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 70</value>
   </data>
-  <data name="&gt;&gt;ddGender.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="tbWhocare.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tbDedu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAKVJREFUeF7t07EJQkEURNEX/PT3345iGZZhAcrCJnawF86BSSa/A8S87vv9mPma
-        2Zlbje5cZ9YBnGs1unMVLJxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
-        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyF/wT6v67MOMztzq9GdK9Aw8wPm
-        95O4VOFglAAAAABJRU5ErkJggg==
+        wwAADsMBx2+oZAAAAKpJREFUeF7t07EJAkEABdFtTjCziMPIkjSwryvDApSFTexgB96Dn/x8BhDzuL3P
+        4/L8mtmem42uXMeYB7Cv2ejKVbCwO8FCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQI
+        FkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE/AV7v74+8zCzPTcbXbkC
+        DWP8AKFUoutDgA8pAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="&gt;&gt;ddGender.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
   <data name="tbMedu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1270,20 +1270,17 @@
         zIcfKO6wUPAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 9.75pt, style=Bold</value>
-  </data>
   <data name="tbDmob.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>100, 35</value>
   </data>
   <data name="bunifuUserControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>814, 225</value>
   </data>
-  <data name="&gt;&gt;label26.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tbName.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
-  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
-    <value>panel3</value>
+  <data name="cbDad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 71</value>
   </data>
   <data name="&gt;&gt;tbDtel.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -1309,17 +1306,8 @@
   <data name="&gt;&gt;label12.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value> </value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>894, 1058</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 16</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="cbMum.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1332,29 +1320,23 @@
   <data name="&gt;&gt;tbDmob.Type" xml:space="preserve">
     <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
   </data>
-  <data name="tbDmob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAKpJREFUeF7t07EJAkEABdFtTjCziMPIkjSwryvDApSFTexgB96Dn/x8BhDzuL3P
-        4/L8mtmem42uXMeYB7Cv2ejKVbCwO8FCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQI
-        FkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFCiGAhRLAQIlgIESyE/AV7v74+8zCzPTcbXbkC
-        DWP8AKFUoutDgA8pAAAAAElFTkSuQmCC
-</value>
+  <data name="&gt;&gt;tbDcity.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbDtel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="tbCity.Location" type="System.Drawing.Point, System.Drawing">
     <value>536, 161</value>
   </data>
-  <data name="cbMum.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>17, 17</value>
+  <data name="&gt;&gt;bunifuUserControl4.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Birth order</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
   <data name="&gt;&gt;cbMum.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;tbRank.Name" xml:space="preserve">
-    <value>tbRank</value>
   </data>
   <data name="cbOther.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>17, 17</value>
@@ -1368,11 +1350,20 @@
   <data name="label18.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
   <data name="&gt;&gt;label28.Parent" xml:space="preserve">
     <value>panel4</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 12pt</value>
+  <data name="tbMmob.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKZJREFUeF7t07ENwlAUBMEXkNIzIqFIyiC3wZYDSvgrzUiXXL4DxGyv+3t/zG5m
+        a+5o9Mp15jyBdf0avXIVLCxPsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyH/wW7P2+eM1syW3NHolSvQMPMF
+        zIcfKO6wUPAAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="&gt;&gt;label13.Parent" xml:space="preserve">
     <value>panel3</value>
@@ -1413,14 +1404,14 @@
   <data name="&gt;&gt;cbOther.Parent" xml:space="preserve">
     <value>panel4</value>
   </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
   </data>
   <data name="tbMjob.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -1428,23 +1419,23 @@
   <data name="&gt;&gt;tbNational.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
+  <data name="&gt;&gt;tbName.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
   <data name="label18.Text" xml:space="preserve">
     <value>Mother Details</value>
   </data>
-  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 10pt, style=Bold</value>
+  <data name="&gt;&gt;tbRank.Name" xml:space="preserve">
+    <value>tbRank</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>panel3</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;tbMedu.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 16</value>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="ddGender.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -1455,14 +1446,17 @@
   <data name="&gt;&gt;tbMjob.Name" xml:space="preserve">
     <value>tbMjob</value>
   </data>
-  <data name="label27.Text" xml:space="preserve">
-    <value>Mother</value>
-  </data>
   <data name="&gt;&gt;tbMcity.Parent" xml:space="preserve">
     <value>panel3</value>
   </data>
-  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
-    <value>panel3</value>
+  <data name="tbWhocare.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKVJREFUeF7t07EJQkEURNEX/PT3345iGZZhAcrCJnawF86BSSa/A8S87vv9mPma
+        2Zlbje5cZ9YBnGs1unMVLJxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKFEMFC
+        iGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyF/wT6v67MOMztzq9GdK9Aw8wPm
+        95O4VOFglAAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>Education</value>
@@ -1479,11 +1473,8 @@
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 28</value>
   </data>
-  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 74</value>
+  <data name="&gt;&gt;tbMmob.Parent" xml:space="preserve">
+    <value>panel3</value>
   </data>
   <data name="&gt;&gt;tbMmob.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -1497,8 +1488,8 @@
   <data name="tbDjob.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>100, 35</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="cbMum.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
   <data name="&gt;&gt;cbDad.Name" xml:space="preserve">
     <value>cbDad</value>
@@ -1509,14 +1500,14 @@
   <data name="cbDad.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="&gt;&gt;tbCity.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="tbDcity.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>100, 35</value>
-  </data>
-  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label17.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1524,14 +1515,17 @@
   <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>814, 225</value>
   </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Nationality</value>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbMjob.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;label25.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>Age</value>
+  <data name="&gt;&gt;bunifuUserControl4.Parent" xml:space="preserve">
+    <value>panel4</value>
   </data>
   <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -1539,17 +1533,17 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>StudentDetail</value>
   </data>
-  <data name="&gt;&gt;tbDcity.Name" xml:space="preserve">
-    <value>tbDcity</value>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Mother</value>
   </data>
   <data name="tbDtel.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>100, 35</value>
   </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="ddGender.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
-  <data name="&gt;&gt;tbMmob.Type" xml:space="preserve">
-    <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 16</value>
@@ -1599,8 +1593,8 @@
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;tbDcity.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;tbProblem.Name" xml:space="preserve">
     <value>tbProblem</value>
@@ -1611,14 +1605,14 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Gender</value>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 74</value>
   </data>
   <data name="ddGender.Size" type="System.Drawing.Size, System.Drawing">
     <value>234, 32</value>
   </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;tbDcity.Name" xml:space="preserve">
+    <value>tbDcity</value>
   </data>
   <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -1626,8 +1620,8 @@
   <data name="&gt;&gt;label19.Name" xml:space="preserve">
     <value>label19</value>
   </data>
-  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 9.75pt, style=Bold</value>
+  <data name="tbMjob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 90</value>
   </data>
   <data name="label22.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1635,8 +1629,8 @@
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;ddGender.Type" xml:space="preserve">
-    <value>Bunifu.UI.WinForms.BunifuDropdown, Bunifu.UI.WinForms.BunifuDropdown, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;tbDOB.Type" xml:space="preserve">
     <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
@@ -1644,32 +1638,41 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="tbDmob.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 156</value>
+  <data name="tbName.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOwAAAAjCAYAAACXbeZ1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAKhJREFUeF7t07EJAkEARNEtRDC1YzGwMju4C68AZWETO9gP78Ekk/8BxDze5+f2
+        PL5mtudmoyvXMeYB7Gs2unIVLOxOsBAiWAgRLIQIFkIECyGChRDBQohgIUSwECJYCBEshAgWQgQLIYKF
+        EMFCiGAhRLAQIlgIESyECBZCBAshgoUQwUKIYCFEsBAiWAgRLIQIFkIECyF/wd5fxzUPM9tzs9GVK9Aw
+        xg9aLV1ERzTKcwAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="label23.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="tbBroNum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 225</value>
+  <data name="tbMcity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 156</value>
   </data>
-  <data name="tbDtel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="tbNational.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 71</value>
+  </data>
   <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 10pt, style=Bold</value>
   </data>
-  <data name="tbDmob.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
   </data>
   <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 12pt</value>
@@ -1677,8 +1680,8 @@
   <data name="&gt;&gt;tbWhocare.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;tbProblem.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
   </data>
   <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
     <value>454, 74</value>
@@ -1692,14 +1695,14 @@
   <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 12pt</value>
   </data>
-  <data name="tbDOB.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
   </data>
   <data name="&gt;&gt;tbDjob.Name" xml:space="preserve">
     <value>tbDjob</value>
   </data>
-  <data name="tbProblem.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1713,8 +1716,8 @@
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 16</value>
+  <data name="tbCity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="tbMedu.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 35</value>
@@ -1722,8 +1725,8 @@
   <data name="tbMcity.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;tbDedu.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;bunifuUserControl1.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="label27.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1767,11 +1770,14 @@
   <data name="tbDmob.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 71</value>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;tbName.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Landline Number</value>
@@ -1779,8 +1785,8 @@
   <data name="&gt;&gt;bunifuUserControl3.Name" xml:space="preserve">
     <value>bunifuUserControl3</value>
   </data>
-  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
-    <value>panel3</value>
+  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 93</value>
   </data>
   <data name="&gt;&gt;tbWhocare.Type" xml:space="preserve">
     <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
@@ -1788,17 +1794,14 @@
   <data name="tbDOB.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 35</value>
   </data>
-  <data name="tbMedu.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>894, 1058</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Phone Number</value>
-  </data>
-  <data name="&gt;&gt;tbDtel.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 10pt, style=Bold</value>
   </data>
   <data name="tbDOB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -1809,8 +1812,8 @@
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 16</value>
   </data>
-  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label28.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1821,20 +1824,11 @@
   <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 10pt, style=Bold</value>
   </data>
-  <data name="tbProblem.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAf4AAAAjCAYAAAB1uGhgAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAM5JREFUeF7t1bENAkEQBME13v380wERBmEQAOikc0jhukoaZxLoAQBiXvf9fsx8
-        zczM7Myt1u/sz6wDADjXav3OvvADwOmEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKE
-        HwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKE
-        HwBChB8AQoQfAEKEHwBChB8AQv7C/7yuzzrMzMzszK3W7+wDAA0zP//Fi9RG1O6RAAAAAElFTkSuQmCC
-</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value> </value>
   </data>
-  <data name="tbMcity.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>100, 35</value>
-  </data>
-  <data name="&gt;&gt;label21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
   </data>
   <data name="cbMum.Size" type="System.Drawing.Size, System.Drawing">
     <value>21, 21</value>
@@ -1857,8 +1851,8 @@
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;bunifuUserControl2.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="bunifuUserControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="bunifuUserControl4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1872,17 +1866,23 @@
   <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 10pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="tbMedu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Others</value>
   </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>City</value>
+  <data name="tbProblem.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAf4AAAAjCAYAAAB1uGhgAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAM5JREFUeF7t1bENAkEQBME13v380wERBmEQAOikc0jhukoaZxLoAQBiXvf9fsx8
+        zczM7Myt1u/sz6wDADjXav3OvvADwOmEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKE
+        HwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKEHwBChB8AQoQfAEKE
+        HwBChB8AQoQfAEKEHwBChB8AQv7C/7yuzzrMzMzszK3W7+wDAA0zP//Fi9RG1O6RAAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="&gt;&gt;tbAge.Type" xml:space="preserve">
-    <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;bunifuUserControl3.Parent" xml:space="preserve">
     <value>panel3</value>
@@ -1890,23 +1890,26 @@
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
   </data>
-  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 862</value>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;label18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tbMname.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
   </data>
-  <data name="&gt;&gt;tbRank.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
   </data>
   <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="cbMum.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="tbMcity.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
   </data>
-  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 93</value>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 70</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
     <value>Parents complaint</value>
@@ -1914,8 +1917,8 @@
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>23, 400</value>
   </data>
-  <data name="&gt;&gt;tbDcity.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 16</value>
   </data>
   <data name="bunifuUserControl1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1926,17 +1929,17 @@
   <data name="label22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
-  <data name="&gt;&gt;tbMmob.Name" xml:space="preserve">
-    <value>tbMmob</value>
+  <data name="&gt;&gt;tbDedu.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 10pt, style=Bold</value>
   </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 10pt, style=Bold</value>
+  <data name="&gt;&gt;tbDtel.Type" xml:space="preserve">
+    <value>Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox, Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
   </data>
-  <data name="&gt;&gt;tbWhocare.Name" xml:space="preserve">
-    <value>tbWhocare</value>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
   </data>
   <data name="&gt;&gt;label28.Name" xml:space="preserve">
     <value>label28</value>
@@ -1944,8 +1947,8 @@
   <data name="tbProblem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="cbDad.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>17, 17</value>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 74</value>
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1965,14 +1968,11 @@
   <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
     <value>291, 140</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>535, 74</value>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Mother`s Job</value>
   </data>
-  <data name="label26.Text" xml:space="preserve">
-    <value>Father</value>
-  </data>
-  <data name="tbDtel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 35</value>
+  <data name="&gt;&gt;cbOther.Type" xml:space="preserve">
+    <value>Bunifu.UI.WinForms.BunifuCheckBox, Bunifu.UI.WinForms.BunifuCheckBox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
   </data>
   <data name="&gt;&gt;label24.Name" xml:space="preserve">
     <value>label24</value>
@@ -1983,8 +1983,8 @@
   <data name="&gt;&gt;panel2.Name" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 28</value>
   </data>
   <data name="tbMjob.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 35</value>
@@ -1992,8 +1992,8 @@
   <data name="label27.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="&gt;&gt;bunifuUserControl4.Type" xml:space="preserve">
+    <value>Bunifu.UI.WinForms.BunifuUserControl, Bunifu.UI.WinForms.BunifuUserControl, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
@@ -2004,8 +2004,8 @@
   <data name="tbDedu.Location" type="System.Drawing.Point, System.Drawing">
     <value>293, 90</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;tbCity.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
   <data name="&gt;&gt;label9.Name" xml:space="preserve">
     <value>label9</value>
@@ -2022,8 +2022,8 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;label14.Name" xml:space="preserve">
-    <value>label14</value>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 16</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
