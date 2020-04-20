@@ -261,4 +261,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/HopeCity/Forms/test.sq-XK.resx
+/HopeCity/Forms/test.aa.resx
+*.pyc
 /HopeCity/db_backup
