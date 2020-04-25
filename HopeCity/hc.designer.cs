@@ -104,6 +104,8 @@ namespace HopeCity
 		
 		private int _Id;
 		
+		private System.Nullable<System.DateTime> _date;
+		
 		private System.Nullable<bool> _A1;
 		
 		private string _A1D;
@@ -236,6 +238,8 @@ namespace HopeCity
     partial void OnCreated();
     partial void OnIdChanging(int value);
     partial void OnIdChanged();
+    partial void OndateChanging(System.Nullable<System.DateTime> value);
+    partial void OndateChanged();
     partial void OnA1Changing(System.Nullable<bool> value);
     partial void OnA1Changed();
     partial void OnA1DChanging(string value);
@@ -384,6 +388,26 @@ namespace HopeCity
 					this._Id = value;
 					this.SendPropertyChanged("Id");
 					this.OnIdChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_date", DbType="Date")]
+		public System.Nullable<System.DateTime> date
+		{
+			get
+			{
+				return this._date;
+			}
+			set
+			{
+				if ((this._date != value))
+				{
+					this.OndateChanging(value);
+					this.SendPropertyChanging();
+					this._date = value;
+					this.SendPropertyChanged("date");
+					this.OndateChanged();
 				}
 			}
 		}
@@ -2446,7 +2470,7 @@ namespace HopeCity
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_profile_image", DbType="Image", UpdateCheck=UpdateCheck.Never)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_profile_image", DbType="Image", CanBeNull=true, UpdateCheck=UpdateCheck.Never)]
 		public System.Data.Linq.Binary profile_image
 		{
 			get

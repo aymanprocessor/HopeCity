@@ -145,7 +145,7 @@
             this.cbGender.Name = "cbGender";
             this.cbGender.NomalColor = System.Drawing.Color.WhiteSmoke;
             this.cbGender.onHoverColor = System.Drawing.Color.White;
-            this.cbGender.selectedIndex = -1;
+            this.cbGender.selectedIndex = 0;
             this.cbGender.onItemSelected += new System.EventHandler(this.bunifuDropdown1_onItemSelected);
             // 
             // btnCancel

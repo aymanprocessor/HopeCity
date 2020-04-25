@@ -132,10 +132,6 @@ namespace HopeCity.Forms
             this.SetStyle(ControlStyles.ResizeRedraw, true);
         }
 
-        private void bunifuButton1_Click(object sender, EventArgs e)
-        {
-        }
-
         public void showForm(Form form)
         {
             form.TopLevel = false;
@@ -149,15 +145,6 @@ namespace HopeCity.Forms
         public void removeForm()
         {
             mainPanel.Controls.Clear();
-        }
-
-        private void bunifuButton2_Click(object sender, EventArgs e)
-        {
-            {
-                removeForm();
-                Form form = new Students();
-                showForm(form);
-            }
         }
 
         private void bunifuTileButton1_Click(object sender, EventArgs e)
@@ -186,6 +173,7 @@ namespace HopeCity.Forms
             lblCurrentUser.Text = Properties.Settings.Default.currentuser;
             removeForm();
             Form form = new Students(this);
+
             showForm(form);
         }
 
@@ -266,6 +254,46 @@ namespace HopeCity.Forms
                     bunifuImageButton1.Image = Image.FromStream(mem);
                 }
             }
+        }
+
+        private void picClose_MouseEnter(object sender, EventArgs e)
+        {
+            picClose.BackColor = Color.Salmon;
+        }
+
+        private void picClose_MouseLeave(object sender, EventArgs e)
+        {
+            picClose.BackColor = Color.White;
+        }
+
+        private void picRestore_MouseEnter(object sender, EventArgs e)
+        {
+            picRestore.BackColor = Color.SkyBlue;
+        }
+
+        private void picRestore_MouseLeave(object sender, EventArgs e)
+        {
+            picRestore.BackColor = Color.White;
+        }
+
+        private void picMinimize_MouseEnter(object sender, EventArgs e)
+        {
+            picMinimize.BackColor = Color.SkyBlue;
+        }
+
+        private void picMinimize_MouseLeave(object sender, EventArgs e)
+        {
+            picMinimize.BackColor = Color.White;
+        }
+
+        private void picMaximize_MouseEnter(object sender, EventArgs e)
+        {
+            picMaximize.BackColor = Color.SkyBlue;
+        }
+
+        private void picMaximize_MouseLeave(object sender, EventArgs e)
+        {
+            picMaximize.BackColor = Color.White;
         }
     }
 }

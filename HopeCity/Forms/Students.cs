@@ -85,7 +85,8 @@ namespace HopeCity.Forms
                 {
                     student result = db.students.FirstOrDefault(x => x.Id.Equals(dgStudent.CurrentRow.Cells["NatID"].Value));
                     mainForm.removeForm();
-                    Form form = new StudentDetail(result, mainForm);
+                    Form form = new StudentMain(result, mainForm);
+                    form.Dock = DockStyle.Fill;
                     mainForm.showForm(form);
                 }
             }

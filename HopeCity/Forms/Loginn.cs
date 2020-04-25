@@ -134,6 +134,7 @@ namespace HopeCity
 
         private void Login_Load(object sender, EventArgs e)
         {
+            AcceptButton = btnSignin;
             com = new common();
             language = new language();
 
@@ -229,7 +230,15 @@ namespace HopeCity
 
         private void txtPassword_OnValueChanged_1(object sender, EventArgs e)
         {
-            txtPassword.isPassword = true;
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+            if (txtPassword.Text.Length > 0)
+            {
+                txtPassword.PasswordChar = '*';
+            }
+           
         }
     }
 }

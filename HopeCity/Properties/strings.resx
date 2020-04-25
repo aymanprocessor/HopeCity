@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="login_btn_signin" xml:space="preserve">
-    <value>Sign In</value>
+    <value>Login</value>
   </data>
   <data name="login_msg_invlidUaernamePassword" xml:space="preserve">
     <value>Wrong Password</value>

@@ -61,7 +61,7 @@ namespace HopeCity.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sign In.
+        ///   Looks up a localized string similar to Login.
         /// </summary>
         public static string login_btn_signin {
             get {

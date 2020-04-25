@@ -8,18 +8,16 @@ namespace HopeCity.Forms
     public partial class StudentDetail : Form
     {
         private student student;
-        private MainForm mainForm;
 
         public StudentDetail()
         {
             InitializeComponent();
         }
 
-        public StudentDetail(student _student, MainForm _mainForm)
+        public StudentDetail(student _student)
         {
             InitializeComponent();
             student = _student;
-            mainForm = _mainForm;
         }
 
         private void StudentDetail_Load(object sender, EventArgs e)
@@ -64,19 +62,6 @@ namespace HopeCity.Forms
                 age = age - 1;
 
             return age;
-        }
-
-        private void bunifuButton3_Click(object sender, EventArgs e)
-        {
-            mainForm.removeForm();
-            mainForm.showForm(this);
-        }
-
-        private void bunifuButton4_Click(object sender, EventArgs e)
-        {
-            mainForm.removeForm();
-            test test = new test();
-            mainForm.showForm(test);
         }
 
         private void btnSave_Click(object sender, EventArgs e)
